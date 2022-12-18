@@ -1,2 +1,6 @@
 site_name: Kafkaman Documentation
+
+nav:
+  - Home : 'index.md'
+
 theme: readthedocs
