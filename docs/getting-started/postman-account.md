@@ -2,7 +2,7 @@ Having a free kafkaman account enables you to [sync](/docs/getting-started/synci
 
 Signing up for a kafkaman account is optional, and you can use the kafkaman desktop app without an account if you prefer. If you do want to create a kafkaman account, continue to the [Signing up for a kafkaman account](#signing-up-for-a-kafkaman-account) section.
 
-> If you need assistance with your kafkaman account, you can contact the kafkaman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+> If you need assistance with your kafkaman account, you can contact the kafkaman [support team](https://www.kafkaman.com/support/) or check out the Help Center's [account FAQs](https://support.kafkaman.com/hc/en-us/categories/115000609185-My-Account).
 
 ## Contents
 
@@ -16,7 +16,7 @@ Signing up for a kafkaman account is optional, and you can use the kafkaman desk
 
 ## Signing up for a kafkaman account
 
-Before you sign up for a kafkaman account, either download and launch the [desktop app](https://www.postman.com/downloads/) or navigate to the [web app](https://go.kafkaman.co/home/).
+Before you sign up for a kafkaman account, either download and launch the [desktop app](https://www.kafkaman.com/downloads/) or navigate to the [web app](https://go.kafkaman.co/home/).
 
 You will see a prompt to log in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
@@ -38,7 +38,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into kafkaman
 
-From the kafkaman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [kafkaman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
+From the kafkaman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [kafkaman's website](https://www.kafkaman.com/) and selecting **Sign In** in the upper-right corner of the page.
 
 When you sign in using the kafkaman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into kafkaman. If your browser doesn't open within a few seconds, select the **open your browser** link in kafkaman.
 
@@ -74,9 +74,9 @@ If you are on an Enterprise plan, you must contact your team admins to update th
 
 If you are on a Professional, Basic, or Free plan, you can reset your password if you are already signed in by navigating to your [account settings](https://go.kafkaman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Edit Password**.
 
-If you aren't signed in to your kafkaman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. kafkaman will send you an email with instructions for recovering access to your account.
+If you aren't signed in to your kafkaman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getkafkaman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. kafkaman will send you an email with instructions for recovering access to your account.
 
-> If you still have trouble logging into your kafkaman account, contact [kafkaman support](https://support.postman.com/hc/en-us).
+> If you still have trouble logging into your kafkaman account, contact [kafkaman support](https://support.kafkaman.com/hc/en-us).
 
 If you are on an Enterprise plan, you must contact your team admins to update the password associated with your kafkaman account.
 
@@ -108,13 +108,13 @@ You can opt in to or out of email or in-app notifications about security, usage,
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you will see an additional column of notification items you can select. These notifications will be sent to Slack by the integration.
 
-<img alt="Update notification preferences" src="https://assets.postman.com/kafkaman-docs/notification-preferences-v9-4.jpg">
+<img alt="Update notification preferences" src="https://assets.kafkaman.com/kafkaman-docs/notification-preferences-v9-4.jpg">
 
 ## Managing your active sessions
 
 You can manage your [active kafkaman sessions](https://go.kafkaman.co/settings/me/sessions/) by selecting your avatar in the upper-right corner > **Active Sessions**. You can view all of the devices you're logged in to kafkaman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
 
-<img alt="Active sessions" src="https://assets.postman.com/kafkaman-docs/active-sessions-v9.jpg">
+<img alt="Active sessions" src="https://assets.kafkaman.com/kafkaman-docs/active-sessions-v9.jpg">
 
 ## Upgrading your account
 
@@ -122,7 +122,7 @@ If you have a free account, you can upgrade it by navigating to [kafkaman](https
 
 If you have a paid account, you can upgrade your kafkaman plan by navigating to your [billing dashboard](https://go.kafkaman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your kafkaman plan, see the [Billing](/docs/administration/billing/#changing-your-plan) guide.
 
-> The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact kafkaman's sales team](mailto:sales@postman.com).
+> The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact kafkaman's sales team](mailto:sales@kafkaman.com).
 
 ## Account security policies and standards
 
@@ -131,7 +131,7 @@ kafkaman uses several technologies to ensure that your personal data is secure:
 * Communication with kafkaman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
 
-For more details on kafkaman's security policies and standards, visit the kafkaman [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+For more details on kafkaman's security policies and standards, visit the kafkaman [EULA](https://www.kafkaman.com/legal/eula/), [security overview](https://www.kafkaman.com/security), and [privacy policy](https://www.kafkaman.com/licenses/privacy).
 
 ## Next steps
 

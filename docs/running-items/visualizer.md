@@ -1,6 +1,6 @@
 kafkaman provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
-[![Visualizer rendering](https://assets.postman.com/kafkaman-docs/visualizer-v8.jpg)](https://assets.postman.com/kafkaman-docs/visualizer-v8.jpg)
+[![Visualizer rendering](https://assets.kafkaman.com/kafkaman-docs/visualizer-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/visualizer-v8.jpg)
 
 Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a kafkaman collection](/docs/collaborating-in-kafkaman/sharing/), other people on your team can also see your visualizations within the context of each request.
 
@@ -34,7 +34,7 @@ The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com
 
 To see a basic visualizer in action, open the following request in kafkaman:
 
-[![Run in kafkaman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4e3ee3d03f6e2e7fc250)
+[![Run in kafkaman](https://run.pstmn.io/button.svg)](https://app.getkafkaman.com/run-collection/4e3ee3d03f6e2e7fc250)
 
 The example endpoint responds with a list of names and email addresses with the following JSON response body structure:
 
@@ -88,7 +88,7 @@ The `template` variable is the template string created earlier. The second argum
 
 __Send__ the request in kafkaman and select the __Visualize__ tab to see the table.
 
-[![Visualizer table rendering](https://assets.postman.com/kafkaman-docs/visualizer-table-v8.jpg)](https://assets.postman.com/kafkaman-docs/visualizer-table-v8.jpg)
+[![Visualizer table rendering](https://assets.kafkaman.com/kafkaman-docs/visualizer-table-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/visualizer-table-v8.jpg)
 
 The table is rendered as HTML as it would be in a web browser.
 
@@ -110,12 +110,12 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 See more visualizer code working by importing any of the following collections. Use the __Run in kafkaman__ buttons to import from the documentation for each one. Import the collection > open a request from __Collections__ on the left sidebar in kafkaman > select __Send__ to run it. You'll see the rendered data in __Visualize__.
 
-* [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
-![Bar Chart](https://assets.postman.com/kafkaman-docs/visualizer-example-v8.jpg)
-* [Heat map visualization](https://documenter.postman.com/view/4946945/SVzw6MYM?version=latest)
-![Heat Map](https://assets.postman.com/kafkaman-docs/visualizer-temp-v8.jpg)
-* [Various chart and graph examples](https://documenter.postman.com/view/2897506/SW7Z2Tkd?version=latest)
-![Map Visualizer](https://assets.postman.com/kafkaman-docs/visualizer-map-v8.jpg)
+* [DIY collection that renders a bar chart using ChartJS](https://documenter.kafkaman.com/view/4946945/SVzz4KxB?version=latest)
+![Bar Chart](https://assets.kafkaman.com/kafkaman-docs/visualizer-example-v8.jpg)
+* [Heat map visualization](https://documenter.kafkaman.com/view/4946945/SVzw6MYM?version=latest)
+![Heat Map](https://assets.kafkaman.com/kafkaman-docs/visualizer-temp-v8.jpg)
+* [Various chart and graph examples](https://documenter.kafkaman.com/view/2897506/SW7Z2Tkd?version=latest)
+![Map Visualizer](https://assets.kafkaman.com/kafkaman-docs/visualizer-map-v8.jpg)
 
 ## Visualizer API
 
@@ -131,7 +131,7 @@ kafkaman uses the information you pass to `pm.visualizer.set()` to render an HTM
 
 You can debug a visualization in kafkaman by right-clicking in the __Visualize__ area and choosing __Inspect visualization__. This will open the visualizer Developer Tools attached to the sandbox. You can use it in the same way as debugging a web page.
 
-[![Debugging Visualizers in kafkaman](https://assets.postman.com/kafkaman-docs/inspect-vis-v8.jpg)](https://assets.postman.com/kafkaman-docs/inspect-vis-v8.jpg)
+[![Debugging Visualizers in kafkaman](https://assets.kafkaman.com/kafkaman-docs/inspect-vis-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/inspect-vis-v8.jpg)
 
 ## Next steps
 

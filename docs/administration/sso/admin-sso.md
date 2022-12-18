@@ -12,19 +12,19 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO is available on kafkaman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> __[SSO is available on kafkaman Professional and Enterprise plans.](https://www.kafkaman.com/pricing)__
 
 ## Configuring single sign-on
 
 Only a team administrator (admin) can configure single sign-on (SSO) for a kafkaman team.
 
-Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit). In the following screen, select **Authentication**.
+Go to [Team Settings](https://app.getkafkaman.com/dashboard/teams/edit). In the following screen, select **Authentication**.
 
-[![sso enable](https://assets.postman.com/kafkaman-docs/edit-team-profile.jpg)](https://assets.postman.com/kafkaman-docs/edit-team-profile.jpg)
+[![sso enable](https://assets.kafkaman.com/kafkaman-docs/edit-team-profile.jpg)](https://assets.kafkaman.com/kafkaman-docs/edit-team-profile.jpg)
 
 Upon selecting *Authentication*, the following screen appears:
 
-[![sso enable](https://assets.postman.com/kafkaman-docs/configured-auths.jpg)](https://assets.postman.com/kafkaman-docs/configured-auths.jpg)
+[![sso enable](https://assets.kafkaman.com/kafkaman-docs/configured-auths.jpg)](https://assets.kafkaman.com/kafkaman-docs/configured-auths.jpg)
 
 After configuring an SSO authentication for your kafkaman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Select the button to turn your SSO authentication system on or off. This is a team-level option which will enable/disable SSO for the whole team. To update the SSO settings, select **Edit**.
 
@@ -32,7 +32,7 @@ To configure a new authentication method, select **Add a new authentication meth
 
 In the **Add Authentication Method** modal, select the authentication type. Enter an authentication name that is easily identifiable to your team. Then select the **Proceed** button.
 
-<img src="https://assets.postman.com/kafkaman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 
 **Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
@@ -40,7 +40,7 @@ In the "Service Provider Details (kafkaman)" screen, the Entity ID, and the URLs
 
 As a next step, you must fill in the details in the **Identity Provider Details** section. And then provide your authentication certificate from your identity provider in "X.509 Certificate".
 
-   [![details](https://assets.postman.com/kafkaman-docs/server-provider-details.jpg)](https://assets.postman.com/kafkaman-docs/server-provider-details.jpg)
+   [![details](https://assets.kafkaman.com/kafkaman-docs/server-provider-details.jpg)](https://assets.kafkaman.com/kafkaman-docs/server-provider-details.jpg)
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
@@ -87,13 +87,13 @@ If a kafkaman user logs in to kafkaman through a team's IdP, the user will be au
 
 ### Automatically adding new users
 
-The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to kafkaman with SSO. If this is enabled, users with or without existing kafkaman accounts can join your team by heading to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
+The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to kafkaman with SSO. If this is enabled, users with or without existing kafkaman accounts can join your team by heading to the [Enterprise login page](https://identity.getkafkaman.com/enterprise/login) and logging in with SSO.
 
 > **Automatically add new users** will only work if your team has user slots available. Your team size will not be automatically increased if additional users log in via SSO.
 
 ### Managing team logins
 
-By default, kafkaman only supports Service Provider initiated logins for kafkaman Professional or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to kafkaman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [kafkaman team settings](http://go.kafkaman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to kafkaman.
+By default, kafkaman only supports Service Provider initiated logins for kafkaman Professional or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getkafkaman.com/enterprise/login) in order to log in to kafkaman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [kafkaman team settings](http://go.kafkaman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to kafkaman.
 
 ### Removing team access
 

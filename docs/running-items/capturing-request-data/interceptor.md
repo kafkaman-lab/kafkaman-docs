@@ -25,10 +25,10 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 To get started, install kafkaman Interceptor:
 
 1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
-1. Select <img alt="Capture icon" src="https://assets.postman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer.
+1. Select <img alt="Capture icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
-    <img src="https://assets.postman.com/kafkaman-docs/capture-via-interceptor-tab-v9-13.jpg" alt="Capture via Interceptor tab" width="300px"/>
+    <img src="https://assets.kafkaman.com/kafkaman-docs/capture-via-interceptor-tab-v9-13.jpg" alt="Capture via Interceptor tab" width="300px"/>
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
@@ -56,7 +56,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Select **Start Capture**.
 
-<img src="https://assets.postman.com/kafkaman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/>
 
 ### Running the Interceptor debug session
 
@@ -74,19 +74,19 @@ There are several controls you can use to limit, organize, and investigate traff
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-* <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the request.
+* <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the request.
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
 * **+ Add to Cookie Jar** - add the request to the kafkaman cookie jar.
 
-* <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the cookie.
+* <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the cookie.
 
 The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button, and select **Resume** to restart it.
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the Interceptor is still connected. Select <img alt="Capture icon" src="https://assets.postman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer, and you can start another debug session.
+After stopping the session, the Interceptor is still connected. Select <img alt="Capture icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer, and you can start another debug session.
 
 ### Viewing the Interceptor debug session results
 
@@ -98,7 +98,7 @@ The **Overview** displays summary graphs of the traffic captured in the session.
 
 The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
 
-You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
+You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 
 ## How it works
 
@@ -204,10 +204,10 @@ The communication between Interceptor and kafkaman is automatically encrypted. Y
 
 ### Adding a custom encryption key in the UI
 
-1. In the kafkaman app, select <img alt="Capture icon" src="https://assets.postman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/kafkaman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
+1. In the kafkaman app, select <img alt="Capture icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the kafkaman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
 
-    <img src="https://assets.postman.com/kafkaman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
+    <img src="https://assets.kafkaman.com/kafkaman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 
 1. Enter an alphanumeric key of 10 or more characters and select **Save key**.
 1. Open your browser and select the Interceptor extension. Select the lock icon, enter the same key, then select **Save key**. Both the app and browser will confirm the **Connection is secure**.
@@ -230,7 +230,7 @@ To update Interceptor:
 
 ## Using the Interceptor with kafkaman's Chrome app
 
-> kafkaman's Chrome app is deprecated and no longer offers feature parity with kafkaman native. It's highly recommended that you switch to [kafkaman native](https://www.postman.com/downloads/).
+> kafkaman's Chrome app is deprecated and no longer offers feature parity with kafkaman native. It's highly recommended that you switch to [kafkaman native](https://www.kafkaman.com/downloads/).
 
 The kafkaman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your kafkaman app's history.
 

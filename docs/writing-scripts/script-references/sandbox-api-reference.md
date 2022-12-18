@@ -602,11 +602,11 @@ See the [Request definition](http://www.kafkamanlabs.com/kafkaman-collection/Req
 
 ## Scripting workflows
 
-The `kafkaman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+The `kafkaman` object provides the `setNextRequest` method for building request workflows when you use the [collection runner](/docs/running-collections/building-workflows/) or [kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/command-line-integration-with-kafkaman-cli/).
 
 > Note that `setNextRequest` has no effect when you run requests using the **Send** button, it only comes into effect when you run a collection.
 
-When you run a collection (using the collection runner or Newman), kafkaman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `kafkaman.setNextRequest` to specify which request should run next.
+When you run a collection (using the collection runner or kafkaman-cli), kafkaman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `kafkaman.setNextRequest` to specify which request should run next.
 
 * Run the specified request after this one (the request name as defined in the collection, for example "Get customers"):
 

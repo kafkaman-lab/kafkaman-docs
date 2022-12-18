@@ -4,7 +4,7 @@ For example, if a teammate makes a change to the same request you are currently 
 
 If kafkaman encounters a conflict between your local app and the synced data for your account or team, you will see the __Resolve Sync Conflicts__ modal when your account attempts to sync.
 
-<img alt="Sync Conflicts" src="https://assets.postman.com/kafkaman-docs/sync-conflicts-v8.jpg" width="600px"/>
+<img alt="Sync Conflicts" src="https://assets.kafkaman.com/kafkaman-docs/sync-conflicts-v8.jpg" width="600px"/>
 
 You will see a tab for each collection affected by conflicts, and each conflict listed indicating the difference between the local and server version.
 

@@ -14,7 +14,7 @@ contextual_links:
 ---
 This section describes the steps to migrate your team to the latest version of kafkaman.
 
-kafkaman v9 provides a consistent, improved API development experience. The kafkaman desktop app and [kafkaman on the web](https://community.postman.com/t/whats-new-in-kafkaman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
+kafkaman v9 provides a consistent, improved API development experience. The kafkaman desktop app and [kafkaman on the web](https://community.kafkaman.com/t/whats-new-in-kafkaman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Upgrading to kafkaman v9](#upgrading-to-kafkaman-v9)
 * [Upgrading to kafkaman v8](#upgrading-to-kafkaman-v8)
@@ -28,11 +28,11 @@ kafkaman v9 provides a consistent, improved API development experience. The kafk
 
 You can move from kafkaman v7 or v8 to kafkaman v9 by updating the app via **Settings** > **Update** > **Download update**.
 
-<img alt="Settings Update" src ="https://assets.postman.com/kafkaman-docs/settings-update-v8-to-v9.jpg"/>
+<img alt="Settings Update" src ="https://assets.kafkaman.com/kafkaman-docs/settings-update-v8-to-v9.jpg"/>
 
 You will need to restart kafkaman to install the update. Select __Restart and Install Update__.
 
-<img alt="Restart and install modal" src ="https://assets.postman.com/kafkaman-docs/restart-and-install-update-v8.jpg" width="450px"/>
+<img alt="Restart and install modal" src ="https://assets.kafkaman.com/kafkaman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
 You can start using kafkaman v9 and access the new UI and features once the update is completed.
 
@@ -46,15 +46,15 @@ Non-team users can move from kafkaman v7 to v8 by updating the app via **Setting
 
 It's important to verify your work is synced to make sure no data is lost during the update. Select __Verify Sync__.
 
-<img alt="Verify Sync modal" src ="https://assets.postman.com/kafkaman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
+<img alt="Verify Sync modal" src ="https://assets.kafkaman.com/kafkaman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
 Once your work is synced, you can update to kafkaman v8. Select __Update to v8__.
 
-<img alt="Work in Sync modal" src ="https://assets.postman.com/kafkaman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
+<img alt="Work in Sync modal" src ="https://assets.kafkaman.com/kafkaman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
 
 You will need to restart kafkaman to install the update. Select __Restart and Install Update__.
 
-<img alt="Restart and install modal" src ="https://assets.postman.com/kafkaman-docs/restart-and-install-update-v8.jpg" width="450px"/>
+<img alt="Restart and install modal" src ="https://assets.kafkaman.com/kafkaman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
 You can start using kafkaman v8 and access the new UI and features once the update is completed.
 

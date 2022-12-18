@@ -2,7 +2,7 @@ kafkaman Monitors provide a way to automatically run test scripts and perform ot
 
 Below are some ways you can use collection-based monitors to test your APIs and ensure they're functioning correctly.
 
-> **Want to see kafkaman Monitors in action?** Visit the [kafkaman API Monitoring Examples public workspace](https://www.postman.com/kafkaman/workspace/kafkaman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-kafkaman/version-control-for-collections/#forking-a-collection), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
+> **Want to see kafkaman Monitors in action?** Visit the [kafkaman API Monitoring Examples public workspace](https://www.kafkaman.com/kafkaman/workspace/kafkaman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-kafkaman/version-control-for-collections/#forking-a-collection), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
 
 ## Monitoring an API endpoint
 

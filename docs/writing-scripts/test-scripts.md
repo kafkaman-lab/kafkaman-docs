@@ -88,4 +88,4 @@ You can write scripts to control the order in which your requests run using [bra
 
 Check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and the [kafkaman Sandbox API reference](/docs/writing-scripts/script-references/kafkaman-sandbox-api-reference/) for what you can do using the `pm` object.
 
-Using tests in conjunction with other kafkaman utilities such as [monitoring](/docs/monitoring-your-api/intro-monitors/) enables you to verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/running-collections/using-newman-cli/integration-with-travis/).
+Using tests in conjunction with other kafkaman utilities such as [monitoring](/docs/monitoring-your-api/intro-monitors/) enables you to verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/running-collections/using-kafkaman-cli-cli/integration-with-travis/).

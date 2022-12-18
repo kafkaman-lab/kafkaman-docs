@@ -1,10 +1,10 @@
 The Collection Runner allows you to run sets of requests in a specified sequence. The Collection Runner will log your request test results, and your scripts can pass data between requests as well as altering the request workflow.
 
-You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using kafkaman's CLI Newman.
+You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using kafkaman's CLI kafkaman-cli.
 
-[![Runner results](https://assets.postman.com/kafkaman-docs/runner-overview-v8.jpg)](https://assets.postman.com/kafkaman-docs/runner-overview-v8.jpg)
+[![Runner results](https://assets.kafkaman.com/kafkaman-docs/runner-overview-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/runner-overview-v8.jpg)
 
-> You can run a collection in kafkaman, using Newman, or with a monitor.
+> You can run a collection in kafkaman, using kafkaman-cli, or with a monitor.
 
 ## Contents
 
@@ -18,15 +18,15 @@ You can run collections against specific environments, and can pass data files i
 
 To run a collection, open a collection and select __Run__ on the overview tab.
 
-[![Collection Run](https://assets.postman.com/kafkaman-docs/collection-run-button-v8.jpg)](https://assets.postman.com/kafkaman-docs/collection-run-button-v8.jpg)
+[![Collection Run](https://assets.kafkaman.com/kafkaman-docs/collection-run-button-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/collection-run-button-v8.jpg)
 
 You can also select __Runner__ at the bottom right of kafkaman and drag a collection over from __Collections__ or __History__ on the left.
 
-<img alt="Run history" src="https://assets.postman.com/kafkaman-docs/run-history-v8.jpg" width="350px"/>
+<img alt="Run history" src="https://assets.kafkaman.com/kafkaman-docs/run-history-v8.jpg" width="350px"/>
 
 By default your requests will run in the sequence they are listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also deselect an individual request by unchecking its box.
 
-[![Runner request order](https://assets.postman.com/kafkaman-docs/runner-order-v8.jpg)](https://assets.postman.com/kafkaman-docs/runner-order-v8.jpg)
+[![Runner request order](https://assets.kafkaman.com/kafkaman-docs/runner-order-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/runner-order-v8.jpg)
 
 > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
@@ -48,21 +48,21 @@ With your config complete, select __Run (collection name)__ to execute it. kafka
 
 Select a request name to access more data on what happened when it executed.
 
-[![Runner results](https://assets.postman.com/kafkaman-docs/runner-results-v8.jpg)](https://assets.postman.com/kafkaman-docs/runner-results-v8.jpg)
+[![Runner results](https://assets.kafkaman.com/kafkaman-docs/runner-results-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/runner-results-v8.jpg)
 
 If any tests in a request script fail during the collection run, it will be listed as failed—it will be listed as passed if all tests inside it pass.
 
-[![Collection run fail](https://assets.postman.com/kafkaman-docs/run-fail-v8.jpg)](https://assets.postman.com/kafkaman-docs/run-fail-v8.jpg)
+[![Collection run fail](https://assets.kafkaman.com/kafkaman-docs/run-fail-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/run-fail-v8.jpg)
 
 > If you check __Save responses__ when you start a collection run, you will see the responses in the run results.
 
 For additional details such as viewing log statements, open the __Console__ from the bottom left of kafkaman.
 
-[![Runner console](https://assets.postman.com/kafkaman-docs/run-console-v8.jpg)](https://assets.postman.com/kafkaman-docs/run-console-v8.jpg)
+[![Runner console](https://assets.kafkaman.com/kafkaman-docs/run-console-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/run-console-v8.jpg)
 
 You can export test results and view the __Run Summary__ using the buttons at the top right.
 
-[![Runner result summary](https://assets.postman.com/kafkaman-docs/run-overview-v8.jpg)](https://assets.postman.com/kafkaman-docs/run-overview-v8.jpg)
+[![Runner result summary](https://assets.kafkaman.com/kafkaman-docs/run-overview-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/run-overview-v8.jpg)
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
@@ -78,7 +78,7 @@ To export a collection run, open it in the __Runner__ (using __History__ on the 
 
 In addition to using the Collection Runner in kafkaman, you can use collection runs in conjunction with other utilities in order to build automation into your API projects.
 
-* The kafkaman command-line interface [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) enables you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
+* The kafkaman command-line interface [kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/command-line-integration-with-kafkaman-cli/) enables you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
 * You can also set up a [collection webhook](/docs/running-collections/collection-webhooks/) to trigger a collection run at a specific time with your own custom payload.
 

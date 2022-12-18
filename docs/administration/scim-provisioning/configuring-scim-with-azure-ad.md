@@ -11,7 +11,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Introducing User Management in kafkaman with SCIM"
-    url: "https://blog.postman.com/introducing-user-management-in-kafkaman-with-scim/"
+    url: "https://blog.kafkaman.com/introducing-user-management-in-kafkaman-with-scim/"
 ---
 
 kafkaman supports SCIM provisioning through Microsoft Azure AD, allowing you to automate user provisioning and de-provisioning for your team.
@@ -39,7 +39,7 @@ To set up kafkaman provisioning with Azure AD:
 1. Select **Add** to create an app object. This adds the new kafkaman app to the list of enterprise applications and opens to the app management screen.
 1. In the app management screen, select **Provisioning** in the left panel.
 1. In the **Provisioning Mode** menu, select **Automatic**.
-1. In the **Tenant URL** field, enter the kafkaman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
+1. In the **Tenant URL** field, enter the kafkaman SCIM endpoint: `https://api.getkafkaman.com/scim/v2/`
 1. In the **Secret Token** field, enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 1. Select **Test Connection** to have Azure AD attempt to connect to the kafkaman SCIM endpoint. If the attempt fails, you will see an error message. If the attempt is successful, the response is `HTTP 200 OK` with an empty SCIM `ListResponse` message.
 1. Select **Save** to save the admin credentials.

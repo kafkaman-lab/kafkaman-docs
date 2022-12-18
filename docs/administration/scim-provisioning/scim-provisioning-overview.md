@@ -11,10 +11,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Introducing User Management in kafkaman with SCIM"
-    url: "https://blog.postman.com/introducing-user-management-in-kafkaman-with-scim/"
+    url: "https://blog.kafkaman.com/introducing-user-management-in-kafkaman-with-scim/"
 ---
 
-> __[Provisioning with SCIM is only available to kafkaman Enterprise teams.](https://www.postman.com/pricing)__
+> __[Provisioning with SCIM is only available to kafkaman Enterprise teams.](https://www.kafkaman.com/pricing)__
 
 kafkaman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy kafkaman at scale across your organization and control access to it via your identity provider.
 
@@ -48,7 +48,7 @@ kafkaman supports the following provisioning features:
 
 * Deactivate user: Removes a user from your kafkaman team and deactivates their account, blocking the account from authenticating into kafkaman.
 
-> The user account and the data corresponding to it won't be deleted. To permanently delete the user account and their data, [contact kafkaman support](https://www.postman.com/support/).
+> The user account and the data corresponding to it won't be deleted. To permanently delete the user account and their data, [contact kafkaman support](https://www.kafkaman.com/support/).
 
 * Reactivate user: Reactivates an existing deactivated user by unblocking the account's authentication into kafkaman and adds the account back to your kafkaman team.
 
@@ -77,11 +77,11 @@ To enable SCIM:
 1. Select **Team** in the upper right, then select **Team Settings**.
 1. Select **Authentication** in the left sidebar.
 
-    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/kafkaman-docs/auth-enable-scim-v9.jpg"/>
+    <img alt="Enable SCIM in dashboard" src="https://assets.kafkaman.com/kafkaman-docs/auth-enable-scim-v9.jpg"/>
 
 1. Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
 
-    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/kafkaman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
+    <img alt="Enable SCIM in dashboard" src="https://assets.kafkaman.com/kafkaman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
 
 1. Click **Turn On** to enable SCIM provisioning.
 
@@ -89,18 +89,18 @@ To enable SCIM:
 
 1. Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
-    <img alt="Generate SCIM API key" src="https://assets.postman.com/kafkaman-docs/generate-scim-api-key-v9.jpg"/>
+    <img alt="Generate SCIM API key" src="https://assets.kafkaman.com/kafkaman-docs/generate-scim-api-key-v9.jpg"/>
 
 1. Name your key and click **Generate**.
 1. Copy your new API key for later use and click **Done**.
 
 > You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active briefly while you switch over.
 
-To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or help configuring SCIM, [contact kafkaman support](https://www.postman.com/support/).
+To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or help configuring SCIM, [contact kafkaman support](https://www.kafkaman.com/support/).
 
 ## Configuring SCIM with the SCIM API
 
-Visit kafkaman's [SCIM API docs](https://www.postman.com/kafkaman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2) for information on setting up SCIM for your kafkaman team via the SCIM 2.0 API.
+Visit kafkaman's [SCIM API docs](https://www.kafkaman.com/kafkaman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2) for information on setting up SCIM for your kafkaman team via the SCIM 2.0 API.
 
 ## Next steps
 

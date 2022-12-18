@@ -20,7 +20,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
+    url: "https://www.kafkaman.com/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -69,14 +69,14 @@ When saving a [response](/docs/sending-requests/responses/) in kafkaman, you hav
 1. Open a request and select **Send**.
 1. In the response pane, select **Save Response** and then select **Save as example**.
 
-<img alt="Save a response as an example" src="https://assets.postman.com/kafkaman-docs/examples-save-response-v9-1.jpg" width="809px">
+<img alt="Save a response as an example" src="https://assets.kafkaman.com/kafkaman-docs/examples-save-response-v9-1.jpg" width="809px">
 
 ### Adding a custom example
 
 With a custom example, you can define exactly how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) should look, including the status code and response body.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a request and then select **Add example**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a request and then select **Add example**.
 1. Enter a name for the example.
 1. Edit the request part of the example.
     * Add any parameters or headers as needed.
@@ -87,7 +87,7 @@ With a custom example, you can define exactly how both the [request](/docs/sendi
     * Add any headers as needed.
 1. Select **Save** to save the example.
 
-<img alt="Add a custom example" src="https://assets.postman.com/kafkaman-docs/examples-add-custom-v9-1.jpg" width="365px">
+<img alt="Add a custom example" src="https://assets.kafkaman.com/kafkaman-docs/examples-add-custom-v9-1.jpg" width="365px">
 
 ## Editing an example
 
@@ -98,14 +98,14 @@ Examples are stored in a collection below their associated requests. You can edi
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
 
-<img alt="Edit an example" src="https://assets.postman.com/kafkaman-docs/examples-edit-response-v9-1.jpg" width="809px">
+<img alt="Edit an example" src="https://assets.kafkaman.com/kafkaman-docs/examples-edit-response-v9-1.jpg" width="809px">
 
 ## Duplicating an example
 
 Duplicate an example to quickly add a new example using an existing example as a base. You can then edit the copied example to change the name, status code, or any other part of the request or response.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Duplicate**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Duplicate**.
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
 
@@ -114,14 +114,14 @@ Duplicate an example to quickly add a new example using an existing example as a
 Deleting an example removes it from the collection as well as from the associated API documentation. Any mock servers you have set up can no longer use the example to return a response.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Delete**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Delete**.
 1. Select **Delete** to confirm.
 
 ## Using examples in documentation
 
 kafkaman automatically [generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
 
-<img alt="Examples in documentation" src="https://assets.postman.com/kafkaman-docs/documentation-including-examples-v9.jpg" width="663px">
+<img alt="Examples in documentation" src="https://assets.kafkaman.com/kafkaman-docs/documentation-including-examples-v9.jpg" width="663px">
 
 Examples provide additional details and clarification for your API and help your team to collaborate on API development. Front-end developers, back-end developers, and testers can all work in parallel, using the examples in the documentation for guidance or to set up [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
 

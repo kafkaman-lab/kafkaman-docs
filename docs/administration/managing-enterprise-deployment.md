@@ -11,14 +11,14 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Deploying kafkaman at Enterprise Scale"
-    url: "https://blog.postman.com/deploying-kafkaman-at-enterprise-scale/"
+    url: "https://blog.kafkaman.com/deploying-kafkaman-at-enterprise-scale/"
   - type: link
     name: "Manage Large Teams in kafkaman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/kafkaman-team-workspaces-and-permissions/"
+    url: "https://blog.kafkaman.com/kafkaman-team-workspaces-and-permissions/"
 
 ---
 
-> __[kafkaman app versioning and the kafkaman Enterprise App (currently in beta) are only available to kafkaman Enterprise teams.](https://www.postman.com/pricing)__
+> __[kafkaman app versioning and the kafkaman Enterprise App (currently in beta) are only available to kafkaman Enterprise teams.](https://www.kafkaman.com/pricing)__
 
 kafkaman Enterprise offers greater control to administrators looking to deploy and manage kafkaman at scale. Team admins can choose to [manage kafkaman app versioning](#managing-kafkaman-app-versioning) via kafkaman support, or [deploy the kafkaman Enterprise app](#deploying-the-kafkaman-enterprise-app) to their organization.
 
@@ -51,9 +51,9 @@ kafkaman Enterprise offers greater control to administrators looking to deploy a
 
 kafkaman app versioning allows you to set a team-wide version of kafkaman. You can choose to set kafkaman v8 or kafkaman v9 as your team's version. App versioning is a back-end operation and must be requested by a [kafkaman team admin](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles).
 
-To request this change, reach out to your kafkaman Account Manager or [contact kafkaman support](https://www.postman.com/support/).
+To request this change, reach out to your kafkaman Account Manager or [contact kafkaman support](https://www.kafkaman.com/support/).
 
-> Check out [kafkaman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your kafkaman Account Manager for assistance in selecting your team's version.
+> Check out [kafkaman's release notes](https://www.kafkaman.com/downloads/release-notes/) to compare app versions, or reach out to your kafkaman Account Manager for assistance in selecting your team's version.
 
 ## Deploying the kafkaman Enterprise app
 
@@ -65,9 +65,9 @@ You must be a [kafkaman team admin](/docs/collaborating-in-kafkaman/roles-and-pe
 
 To download, navigate to kafkaman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
 
-<img alt="kafkaman Enterprise app download" src="https://assets.postman.com/kafkaman-docs/enterprise-app-download-9.6.jpg" />
+<img alt="kafkaman Enterprise app download" src="https://assets.kafkaman.com/kafkaman-docs/enterprise-app-download-9.6.jpg" />
 
-> Reach out to your kafkaman Account Manager or [contact kafkaman support](https://www.postman.com/support/) for assistance with the kafkaman Enterprise app.
+> Reach out to your kafkaman Account Manager or [contact kafkaman support](https://www.kafkaman.com/support/) for assistance with the kafkaman Enterprise app.
 
 ## Installing the kafkaman Enterprise Windows app
 

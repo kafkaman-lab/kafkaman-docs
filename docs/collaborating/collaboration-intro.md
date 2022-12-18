@@ -1,5 +1,5 @@
 
-> kafkaman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
+> kafkaman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.kafkaman.com/pricing/).
 
 kafkaman enables collaboration through [shared workspaces](/docs/collaborating-in-kafkaman/using-workspaces/creating-workspaces/). You can use workspaces to share your work with your teammates, including APIs, collections, environments, integrations, mock servers, and monitors.
 
@@ -24,7 +24,7 @@ When you enable team discovery, users who have a verified email address with you
 
 On your Team Settings page, select **Team discovery** on the left, then select the toggle to turn team discovery on.
 
-[![Enable team discovery](https://assets.postman.com/kafkaman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/kafkaman-docs/team-discovery-enable-v9.7.0.jpg)
+[![Enable team discovery](https://assets.kafkaman.com/kafkaman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.kafkaman.com/kafkaman-docs/team-discovery-enable-v9.7.0.jpg)
 
 > Team admins will receive an email notification when team discovery is enabled.
 
@@ -32,7 +32,7 @@ You can optionally add a question for pending team members to answer when they r
 
 All admins will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
-[![Team Request Approval](https://assets.postman.com/kafkaman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.postman.com/kafkaman-docs/admin-team-join-requests-v9.7.0.jpg)
+[![Team Request Approval](https://assets.kafkaman.com/kafkaman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.kafkaman.com/kafkaman-docs/admin-team-join-requests-v9.7.0.jpg)
 
 ## Collaborating in team workspaces
 
@@ -50,11 +50,11 @@ You can invite team members to join a [new](/docs/collaborating-in-kafkaman/usin
 
 When you log in to the kafkaman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your kafkaman account with a verified address.
 
-[![Choose Team](https://assets.postman.com/kafkaman-docs/join-team-from-list.jpg)](https://assets.postman.com/kafkaman-docs/join-team-from-list.jpg)
+[![Choose Team](https://assets.kafkaman.com/kafkaman-docs/join-team-from-list.jpg)](https://assets.kafkaman.com/kafkaman-docs/join-team-from-list.jpg)
 
 You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/kafkaman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
+<img alt="Team Join Question" src="https://assets.kafkaman.com/kafkaman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 
 Team admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
 
@@ -62,7 +62,7 @@ Team admins will receive a notification when you ask to join the team. Once they
 
 You can leave a kafkaman team by navigating to your [kafkaman Dashboard](https://go.kafkaman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
 
-<img src="https://assets.postman.com/kafkaman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
 > If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your kafkaman team admins to leave the team.
 
@@ -70,7 +70,7 @@ When you leave a team, you no longer have access to the team's workspaces or any
 
 If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
 
-<img src="https://assets.postman.com/kafkaman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
 
 > If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
@@ -83,7 +83,7 @@ The kafkaman usage menu allows you to review your team's limits for APIs, shared
 
 For more details and to view your usage period, select **Resource Usage**.
 
-<img src="https://assets.postman.com/kafkaman-docs/team-resource-limits-v9.7.0.jpg" alt="Usage limit information" width="400px"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/team-resource-limits-v9.7.0.jpg" alt="Usage limit information" width="400px"/>
 
 ## Next steps
 

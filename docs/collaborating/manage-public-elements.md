@@ -1,6 +1,6 @@
-> **[Manage public elements is available only on kafkaman Enterprise plan.](https://www.postman.com/pricing/)**
+> **[Manage public elements is available only on kafkaman Enterprise plan.](https://www.kafkaman.com/pricing/)**
 
-The [Manage public elements](https://blog.postman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
+The [Manage public elements](https://blog.kafkaman.com/govern-your-public-api-collections-more-effectively/) dashboard gives you a central place to control what collections are shared outside of your team for public consumption. You need to have a [Community Manager](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles) role in enterprise organizations to view and manage everything that’s made public by your team — including public collections links, public documentation, and public workspaces created by members of your team — all in one place.
 
 ## Contents
 
@@ -14,27 +14,27 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 
 To manage public elements, you need to have a Community Manager role in a kafkaman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and to see which team member created a specific link. You have the ability to delete links to collections you feel should not be public. From the **Home** page, go to the **Manage public elements** section and select **Manage** to navigate to the dashboard view.
 
-<img alt="Manage public elements" src="https://assets.postman.com/kafkaman-docs/manage-public-elements.jpg"/>
+<img alt="Manage public elements" src="https://assets.kafkaman.com/kafkaman-docs/manage-public-elements.jpg"/>
 
 You can access manage public elements by navigating to the **Team** dropdown menu in the upper right corner and selecting **Manage Public Elements**.
 
-<img alt="Manage public elements from team dropdown" src="https://assets.postman.com/kafkaman-docs/manage-public-elements-option-from-team-dropdown.jpg" height="400px"/>
+<img alt="Manage public elements from team dropdown" src="https://assets.kafkaman.com/kafkaman-docs/manage-public-elements-option-from-team-dropdown.jpg" height="400px"/>
 
 #### Workspaces
 
 In the **Workspaces** tab, you have access to all the public workspaces created by your team. You can also view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details are displayed.
 
-<img alt="Manage workspaces" src="https://assets.postman.com/kafkaman-docs/manage-workspaces.jpg"/>
+<img alt="Manage workspaces" src="https://assets.kafkaman.com/kafkaman-docs/manage-workspaces.jpg"/>
 
 To respond to the request, select **Respond** to the right of the workspace. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-kafkaman/public-workspaces/).
 
-<img alt="Convert to public workspaces" src="https://assets.postman.com/kafkaman-docs/request-visibility-public-workspace.jpg"/>
+<img alt="Convert to public workspaces" src="https://assets.kafkaman.com/kafkaman-docs/request-visibility-public-workspace.jpg"/>
 
 #### Public Documentation
 
 The **Documentation** tab displays all the collections with published documentation. Use the search box to filter by the publisher. Along with the collection name and environment name, you can view the date the documentation was published on, who published it, and the documentation URL. Copy the **Documentation URL** and paste it in a browser of your choice, and you will have access to the documentation.
 
-<img alt="Public documentation" src="https://assets.postman.com/kafkaman-docs/public-documentation.jpg"/>
+<img alt="Public documentation" src="https://assets.kafkaman.com/kafkaman-docs/public-documentation.jpg"/>
 
 #### Collection JSON links
 
@@ -46,7 +46,7 @@ If you turn off the toggle option, no new links can be generated and existing li
 
 Hover over the **JSON link** corresponding to the collection and select **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
 
-<img alt="Collection JSON links" src="https://assets.postman.com/kafkaman-docs/collection-json-links.jpg"/>
+<img alt="Collection JSON links" src="https://assets.kafkaman.com/kafkaman-docs/collection-json-links.jpg"/>
 
 ## Next steps
 

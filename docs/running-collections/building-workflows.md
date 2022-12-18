@@ -4,7 +4,7 @@ In the Collection Runner, you have the option to change the order of the request
 
 As the name suggests, `kafkaman.setNextRequest()` enables you to specify which request kafkaman runs next, following the current request. Using this function, you can build custom workflows that chain requests, running them one after the other in a specific order.
 
-<img alt="Setting the next request" src="https://assets.postman.com/kafkaman-docs/set-next-request-v9-4.jpg" width="841px">
+<img alt="Setting the next request" src="https://assets.kafkaman.com/kafkaman-docs/set-next-request-v9-4.jpg" width="841px">
 
 ## Setting the next request
 
@@ -20,7 +20,7 @@ kafkaman runs the specified request after completing the current request.
 
 If you pass the name of the current request to the `setNextRequest` function, kafkaman will run the current request repeatedly.
 
-<img alt="Looping over a request" src="https://assets.postman.com/kafkaman-docs/set-next-request-loop-v9-4.jpg" width="841px">
+<img alt="Looping over a request" src="https://assets.kafkaman.com/kafkaman-docs/set-next-request-loop-v9-4.jpg" width="841px">
 
 > **IMPORTANT:** Make sure to wrap `setNextRequest` in some additional logic so the request doesn't loop indefinitely. For example, you might exit the loop after a certain number of iterations or when another condition is met. Otherwise you will need to force close the Collection Runner to end the loop.
 
@@ -48,11 +48,11 @@ You can use `kafkaman.setNextRequest()` in the pre-request script or the test sc
 
 ### Specify the next request using the request ID
 
-Instead of specifying the name of the request to run next, you can provide the request ID. To find the ID, open a request and select **Info** <img alt="Information icon" src="https://assets.postman.com/kafkaman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar at right.
+Instead of specifying the name of the request to run next, you can provide the request ID. To find the ID, open a request and select **Info** <img alt="Information icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar at right.
 
 Note that the ID shown is the user ID followed by the request ID. Omit the first eight digits and dash to get the request ID. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/kafkaman-sandbox-api-reference/#scripting-workflows)).
 
-<img alt="Getting a request ID" src="https://assets.postman.com/kafkaman-docs/set-next-request-id-v9-4.jpg" width="428px">
+<img alt="Getting a request ID" src="https://assets.kafkaman.com/kafkaman-docs/set-next-request-id-v9-4.jpg" width="428px">
 
 ### setNextRequest() always executes last
 

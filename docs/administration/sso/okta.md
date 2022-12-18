@@ -30,35 +30,35 @@ After you login to your Okta account, perform the following steps:
 ### Okta - Step 1
 
 Select **Admin** as illustrated in the following screen:
-[![okta admin](https://assets.postman.com/kafkaman-docs/Okta-SAML1.png)](https://assets.postman.com/kafkaman-docs/Okta-SAML1.png)
+[![okta admin](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML1.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML1.png)
 
 ### Okta - Step 2
 
 From the Okta Dashboard, select **Add Application**.
-[![okta add application](https://assets.postman.com/kafkaman-docs/Okta-Add-Application.png)](https://assets.postman.com/kafkaman-docs/Okta-Add-Application.png)
+[![okta add application](https://assets.kafkaman.com/kafkaman-docs/Okta-Add-Application.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Add-Application.png)
 
 ### Okta - Step 3
 
 Select **Create New App**, as illustrated below:
-[![okta_new app](https://assets.postman.com/kafkaman-docs/Okta-Create-Application.png)](https://assets.postman.com/kafkaman-docs/Okta-Create-Application.png)
+[![okta_new app](https://assets.kafkaman.com/kafkaman-docs/Okta-Create-Application.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Create-Application.png)
 
 ### Okta - Step 4
 
 In the following screen, ensure **Web** is selected as Platform. Select "SAML 2.0" and select **Create**.
-[![okta choose saml](https://assets.postman.com/kafkaman-docs/Okta-Choose-SAML.png)](https://assets.postman.com/kafkaman-docs/Okta-Choose-SAML.png)
+[![okta choose saml](https://assets.kafkaman.com/kafkaman-docs/Okta-Choose-SAML.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Choose-SAML.png)
 
 ### Okta - Step 5
 
 Under the first step "General Settings", enter an application name and then select **Next**.
-[![okta app name](https://assets.postman.com/kafkaman-docs/okta_app_name.png)](https://assets.postman.com/kafkaman-docs/okta_app_name.png)
+[![okta app name](https://assets.kafkaman.com/kafkaman-docs/okta_app_name.png)](https://assets.kafkaman.com/kafkaman-docs/okta_app_name.png)
 
 ### Okta - Step 6
 
 Under the second step “Configure SAML”, section A “SAML Settings”, enter the kafkaman service provider details which can be found on the kafkaman [Edit Team Details](https://go.kafkaman.co/settings/team/general) page. To update the identity provider details, navigate to _Authentication -> <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
-[![details](https://assets.postman.com/kafkaman-docs/server-provider-details.jpg)](https://assets.postman.com/kafkaman-docs/server-provider-details.jpg)
+[![details](https://assets.kafkaman.com/kafkaman-docs/server-provider-details.jpg)](https://assets.kafkaman.com/kafkaman-docs/server-provider-details.jpg)
 
 Now, download the encryption certificate. Select the **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below. In the following screen, select **Show Advanced Settings** link to configure advanced SAML assertion settings.
-[![!okta service provider](https://assets.postman.com/kafkaman-docs/okta_service_provider.png)](https://assets.postman.com/kafkaman-docs/okta_service_provider.png)
+[![!okta service provider](https://assets.kafkaman.com/kafkaman-docs/okta_service_provider.png)](https://assets.kafkaman.com/kafkaman-docs/okta_service_provider.png)
 
 | **Field**                   | **Value**    |
 | --------------------------- | ------------ |
@@ -69,19 +69,19 @@ Now, download the encryption certificate. Select the **Download as file** link (
 ### Okta - Step 7
 
 Configure the options as shown below. Ensure your field options reflect these values.
-[![okta advanced](https://assets.postman.com/kafkaman-docs/Okta-SAML-Adv-Settings.png)](https://assets.postman.com/kafkaman-docs/Okta-SAML-Adv-Settings.png)
+[![okta advanced](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML-Adv-Settings.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML-Adv-Settings.png)
 
 For the Encryption Certificate, upload the encryption file in the **Encryption Certificate** field shown above. Remember, you downloaded the encryption file earlier using the **Download as a file** link in kafkaman's Service Provider Details section. Select **Next** to continue.
 
 ### Okta - Step 8
 
 Under the third step “Feedback”, select “I’m an Okta customer adding an internal app”, and check “This is an internal app that we have created”, and then select **Finish**.
-[![okta feedback](https://assets.postman.com/kafkaman-docs/okta_feedback.png)](https://assets.postman.com/kafkaman-docs/okta_feedback.png)
+[![okta feedback](https://assets.kafkaman.com/kafkaman-docs/okta_feedback.png)](https://assets.kafkaman.com/kafkaman-docs/okta_feedback.png)
 
 ### Okta - Step 9
 
 Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
-[![okta sign on](https://assets.postman.com/kafkaman-docs/okta_sign_on.png)](https://assets.postman.com/kafkaman-docs/okta_sign_on.png)
+[![okta sign on](https://assets.kafkaman.com/kafkaman-docs/okta_sign_on.png)](https://assets.kafkaman.com/kafkaman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
 
@@ -90,13 +90,13 @@ The **View Setup Instructions** screen comes populated with values that you shou
 ### Okta - Step 10
 
 Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** and **X.509 Certificate** from the below screen.
-[![okta identity provider](https://assets.postman.com/kafkaman-docs/okta_identity_provider_updated.png)](https://assets.postman.com/kafkaman-docs/okta_identity_provider_updated.png)
+[![okta identity provider](https://assets.kafkaman.com/kafkaman-docs/okta_identity_provider_updated.png)](https://assets.kafkaman.com/kafkaman-docs/okta_identity_provider_updated.png)
 
 And paste them in the corresponding sections of the **Identity Provider Details** screen as shown below:
-[![details](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details3.png)](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details3.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details3.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details3.png)
 
 Once you fill in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
-[![details](https://assets.postman.com/kafkaman-docs/Okta-Relay-State.png)](https://assets.postman.com/kafkaman-docs/Okta-Relay-State.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-Relay-State.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Relay-State.png)
 
 To paste, select the **Edit** button and paste the value in **Default Relay State** field.
 
@@ -112,44 +112,44 @@ After you login to your Okta account, perform the following steps:
 
 Select **Admin**:
 
-[![okta admin](https://assets.postman.com/kafkaman-docs/Okta-SAML1.png)](https://assets.postman.com/kafkaman-docs/Okta-SAML1.png)
+[![okta admin](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML1.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-SAML1.png)
 
 ### kafkaman - Step 2
 
 From the Okta Dashboard, select **Add Application**.
 
-[![okta add application](https://assets.postman.com/kafkaman-docs/Okta-Add-Application.png)](https://assets.postman.com/kafkaman-docs/Okta-Add-Application.png)
+[![okta add application](https://assets.kafkaman.com/kafkaman-docs/Okta-Add-Application.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Add-Application.png)
 
 ### kafkaman - Step 3
 
 In the search bar, search for _kafkaman_. Select **kafkaman**, and then select **Add**.
 
-[![okta add application](https://assets.postman.com/kafkaman-docs/Okta-New-Integ1.png)](https://assets.postman.com/kafkaman-docs/Okta-New-Integ1.png)
+[![okta add application](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ1.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ1.png)
 
 In the following screen, enter a name in the **Application Label** field and select **Done**.
 
-[![details](https://assets.postman.com/kafkaman-docs/Okta-New-Integ2.png)](https://assets.postman.com/kafkaman-docs/Okta-New-Integ2.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ2.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ2.png)
 
 ### kafkaman - Step 4
 
 Now, go to the kafkaman [Edit Team Details](https://go.kafkaman.co/settings/team/general) page. To update the identity provider details, navigate to _Authentication -> <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
 
-[![details](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details.png)](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details.png)
 
 Now, download the encryption certificate by selecting **Download as file** (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below.
 
 Navigate to your Okta account. Go to the **Sign On** tab and select **Edit**.
-[![details](https://assets.postman.com/kafkaman-docs/Okta-New-Integ3.png)](https://assets.postman.com/kafkaman-docs/Okta-New-Integ3.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ3.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ3.png)
 
 The following screen opens:
-[![details](https://assets.postman.com/kafkaman-docs/Okta-New-Integ4.png)](https://assets.postman.com/kafkaman-docs/Okta-New-Integ4.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ4.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-New-Integ4.png)
 
 Select **Browse** and upload the encryption certificate. Select **Save**.
 
 ### kafkaman - Step 5
 
 Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
-[![okta sign on](https://assets.postman.com/kafkaman-docs/okta_sign_on.png)](https://assets.postman.com/kafkaman-docs/okta_sign_on.png)
+[![okta sign on](https://assets.kafkaman.com/kafkaman-docs/okta_sign_on.png)](https://assets.kafkaman.com/kafkaman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
 
@@ -158,15 +158,15 @@ The **View Setup Instructions** screen comes populated with values that you shou
 ### kafkaman - Step 6
 
 Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** and **X.509 Certificate** from the below screen.
-[![okta identity provider](https://assets.postman.com/kafkaman-docs/okta_identity_provider_updated.png)](https://assets.postman.com/kafkaman-docs/okta_identity_provider_updated.png)
+[![okta identity provider](https://assets.kafkaman.com/kafkaman-docs/okta_identity_provider_updated.png)](https://assets.kafkaman.com/kafkaman-docs/okta_identity_provider_updated.png)
 
 And paste them in the corresponding sections of the **Identity Provider Details** screen as shown below:
-[![details](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details3.png)](https://assets.postman.com/kafkaman-docs/Okta-IDP-Details3.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details3.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-IDP-Details3.png)
 
 ### kafkaman - Step 7
 
 Once you fill-in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
-[![details](https://assets.postman.com/kafkaman-docs/Okta-Relay-State.png)](https://assets.postman.com/kafkaman-docs/Okta-Relay-State.png)
+[![details](https://assets.kafkaman.com/kafkaman-docs/Okta-Relay-State.png)](https://assets.kafkaman.com/kafkaman-docs/Okta-Relay-State.png)
 
 To paste, select **Edit** and paste the value in **Default Relay State** field.
 

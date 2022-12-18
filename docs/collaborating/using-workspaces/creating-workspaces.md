@@ -1,6 +1,6 @@
 Workspaces allow you to organize your kafkaman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits are synced with your team in realtime.
 
-<img alt="Workspaces selected" src="https://assets.postman.com/kafkaman-docs/workspace-overview-switcher-selected-v9.1.jpg"/>
+<img alt="Workspaces selected" src="https://assets.kafkaman.com/kafkaman-docs/workspace-overview-switcher-selected-v9.1.jpg"/>
 
 Personal workspaces are visible only to you—with a [kafkaman account](/docs/getting-started/kafkaman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-kafkaman/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
@@ -16,7 +16,7 @@ _Workspace as an entity_ represents a whole container where being an admin gives
 
 To create a new workspace, select the workspace dropdown menu at the left of kafkaman, and select **Create Workspace**.
 
-<img alt="Create new workspace" src="https://assets.postman.com/kafkaman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
+<img alt="Create new workspace" src="https://assets.kafkaman.com/kafkaman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
 
@@ -24,21 +24,21 @@ Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or 
 
 To create a personal workspace, enter the workspace name and summary, then select __Personal__ under **Visibility**.
 
-<img alt="Create personal workspace" src="https://assets.postman.com/kafkaman-docs/create-personal-workspace-v9.1.jpg"/>
+<img alt="Create personal workspace" src="https://assets.kafkaman.com/kafkaman-docs/create-personal-workspace-v9.1.jpg"/>
 
 To create a team workspace, enter the workspace name and summary, then select __Team__ under **Visibility**.
 
-[![Team workspace](https://assets.postman.com/kafkaman-docs/create-workspace-v9.1.jpg)](https://assets.postman.com/kafkaman-docs/create-workspace-v9.1.jpg)
+[![Team workspace](https://assets.kafkaman.com/kafkaman-docs/create-workspace-v9.1.jpg)](https://assets.kafkaman.com/kafkaman-docs/create-workspace-v9.1.jpg)
 
 Select **Create Workspace** and kafkaman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button in the upper right of kafkaman.
 
 To create a new workspace, you can select the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
 
-[![Create workspace new button](https://assets.postman.com/kafkaman-docs/create-workspace-new-button-v9.jpg)](https://assets.postman.com/kafkaman-docs/create-workspace-new-button-v9.jpg)
+[![Create workspace new button](https://assets.kafkaman.com/kafkaman-docs/create-workspace-new-button-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/create-workspace-new-button-v9.jpg)
 
-You can also create a new workspace in the [Workspaces dashboard](https://app.getpostman.com/dashboard). Select **New workspace** and follow the same steps.
+You can also create a new workspace in the [Workspaces dashboard](https://app.getkafkaman.com/dashboard). Select **New workspace** and follow the same steps.
 
-[![Create new workspace dashboard](https://assets.postman.com/kafkaman-docs/create-new-workspace-dashboard-v9.jpg)](https://assets.postman.com/kafkaman-docs/create-new-workspace-dashboard-v9.jpg)
+[![Create new workspace dashboard](https://assets.kafkaman.com/kafkaman-docs/create-new-workspace-dashboard-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/create-new-workspace-dashboard-v9.jpg)
 
 ## Next steps
 

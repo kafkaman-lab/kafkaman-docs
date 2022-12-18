@@ -39,13 +39,13 @@ Your [Team Settings](https://go.kafkaman.co/settings/team/general) allow you to 
 
 You can access team settings by navigating to the **Team** dropdown menu in the upper right corner and selecting **Team Settings**.
 
-<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/kafkaman-docs/team-settings-menu-selected.jpg" width="350px"/>
+<img alt="Team menu with Team Settings selected" src="https://assets.kafkaman.com/kafkaman-docs/team-settings-menu-selected.jpg" width="350px"/>
 
 ## Editing your team profile
 
 When you select **Team Settings**, you will be automatically directed to **Team Profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
 
-<img alt="Edit team profile" src="https://assets.postman.com/kafkaman-docs/edit-team-profile-full-v9.1.jpg"/>
+<img alt="Edit team profile" src="https://assets.kafkaman.com/kafkaman-docs/edit-team-profile-full-v9.1.jpg"/>
 
 **Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
 
@@ -61,7 +61,7 @@ You can select **Team Discovery** from the left-hand menu to view your options f
 
 See [Team Discovery](/docs/collaborating-in-kafkaman/collaboration-intro/#team-discovery) for more information on this feature and the admin and user experience it provides.
 
-<img alt="Edit team profile" src="https://assets.postman.com/kafkaman-docs/team-discovery-enable-v9.1.0.jpg"/>
+<img alt="Edit team profile" src="https://assets.kafkaman.com/kafkaman-docs/team-discovery-enable-v9.1.0.jpg"/>
 
 ## Adding custom domains
 
@@ -69,7 +69,7 @@ Select **Custom Domains** from the left-hand menu to add, update, or remove cust
 
 Visit [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information on adding, verifying, troubleshooting, and publishing to custom domains.
 
-<img alt="Custom domains dashboard" src="https://assets.postman.com/kafkaman-docs/dashboard-view-custom-domains-v9.1.jpg"/>
+<img alt="Custom domains dashboard" src="https://assets.kafkaman.com/kafkaman-docs/dashboard-view-custom-domains-v9.1.jpg"/>
 
 ## Updating billing details
 
@@ -77,7 +77,7 @@ Select **Billing Details** from the left-hand menu to add to or update your team
 
 View [Adding custom information to invoices](/docs/administration/billing/#adding-custom-information-to-invoices) for information on modifying new and existing invoices.
 
-<img alt="Updating billing details" src="https://assets.postman.com/kafkaman-docs/ts-billing-details.jpg" width="500px"/>
+<img alt="Updating billing details" src="https://assets.kafkaman.com/kafkaman-docs/ts-billing-details.jpg" width="500px"/>
 
 ## Editing authentication methods
 
@@ -87,7 +87,7 @@ Select **Authentication** from the left-hand menu to configure or reconfigure yo
 
 See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for details on how to configure your team's custom SSO setup and manage user accounts.
 
-<img alt="Editing authentication methods" src="https://assets.postman.com/kafkaman-docs/ts-authentication.jpg"/>
+<img alt="Editing authentication methods" src="https://assets.kafkaman.com/kafkaman-docs/ts-authentication.jpg"/>
 
 ## Understanding roles and permissions
 
@@ -95,4 +95,4 @@ Select **Roles and Permissions** from the left-hand menu to view a complete list
 
 View [Defining roles](/docs/collaborating-in-kafkaman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your kafkaman team.
 
-<img alt="Roles and permissions descriptions" src="https://assets.postman.com/kafkaman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>
+<img alt="Roles and permissions descriptions" src="https://assets.kafkaman.com/kafkaman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>

@@ -39,7 +39,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 * All plan types (Free, Basic, Professional, and Enterprise)
 * [Team admins and team developers](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles)
-* Information Technology / System Administrator for [Single Sign-On provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
+* Information Technology / System Administrator for [Single Sign-On provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.kafkaman.com/pricing/))
 
 ## Before you start migrating
 
@@ -123,7 +123,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 ## Migration FAQs
 
 * **I'm on a free account, what happens to my personal collections once I join a new team?**
-As long as you are synced to the kafkaman cloud, the organizational structure of your personal workspace (collections and environments) will be carried over into the new team. Anything that has been shared to a team workspace will remain with the previous team after you leave, meaning you will lose access to it. If you experience any issues when joining a new team [contact kafkaman support](https://www.postman.com/support/).
+As long as you are synced to the kafkaman cloud, the organizational structure of your personal workspace (collections and environments) will be carried over into the new team. Anything that has been shared to a team workspace will remain with the previous team after you leave, meaning you will lose access to it. If you experience any issues when joining a new team [contact kafkaman support](https://www.kafkaman.com/support/).
 
 * **Can I be on two teams at once?**
 No, each account can be on one kafkaman team at a time. Multi-team collaboration and guest accounts are on [kafkaman's roadmap](https://github.com/kafkamanlabs/kafkaman-app-support/projects/45?fullscreen=true).
@@ -142,7 +142,7 @@ All collections in your personal workspace and any workspaces that you have join
 
 * **What data does NOT get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-kafkaman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-kafkaman/collaboration-intro/#creating-a-new-workspace-from-the-menu), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
 
-> Reach out to [kafkaman support](https://www.postman.com/support/) if you have any questions or run into any issues setting up kafkaman for your team.
+> Reach out to [kafkaman support](https://www.kafkaman.com/support/) if you have any questions or run into any issues setting up kafkaman for your team.
 
 ## Next Steps
 

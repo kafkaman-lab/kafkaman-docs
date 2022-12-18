@@ -39,7 +39,7 @@ If you created log statements in the pre-request and test script sections for th
 
 ### How does this work?
 
-Is this magic? No, it's the [kafkaman Sandbox](/docs/writing-scripts/script-references/kafkaman-sandbox-api-reference/). The kafkaman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in kafkaman and Newman). Whatever code you write in these sections is executed in this sandbox.
+Is this magic? No, it's the [kafkaman Sandbox](/docs/writing-scripts/script-references/kafkaman-sandbox-api-reference/). The kafkaman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in kafkaman and kafkaman-cli). Whatever code you write in these sections is executed in this sandbox.
 
 ## Debugging scripts
 

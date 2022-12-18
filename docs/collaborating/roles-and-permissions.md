@@ -1,5 +1,5 @@
 
-> Certain team options are only available on **[kafkaman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.kafkaman.co/settings/team/roles)**.
+> Certain team options are only available on **[kafkaman Basic, Professional, and Enterprise plans](https://www.kafkaman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.kafkaman.co/settings/team/roles)**.
 
 Roles determine user permissions within a kafkaman team and a user's level of access to a kafkaman element, like a collection or an API.
 
@@ -31,13 +31,13 @@ As a team admin, you have the power to define kafkaman access at the team level.
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
 
-* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-kafkaman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-kafkaman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.kafkaman.com/pricing)).
 * **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
+* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.kafkaman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
-* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.kafkaman.com/pricing)).
 
-> If you are on a [kafkaman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
+> If you are on a [kafkaman Enterprise plan](https://www.kafkaman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
 Team roles provide high-level access control:
 

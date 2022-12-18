@@ -16,7 +16,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Introducing User Management in kafkaman with SCIM"
-    url: "https://blog.postman.com/introducing-user-management-in-kafkaman-with-scim/"
+    url: "https://blog.kafkaman.com/introducing-user-management-in-kafkaman-with-scim/"
 ---
 
 kafkaman supports SCIM provisioning through OneLogin with the kafkaman OneLogin app, allowing you to automate user provisioning and de-provisioning for your team.
@@ -41,7 +41,7 @@ To set up provisioning with the kafkaman OneLogin app:
 
 2. In OneLogin, navigate to the kafkaman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.
 
-    <img alt="OneLogin configuration API connection" src="https://assets.postman.com/kafkaman-docs/onelogin-api-connection.jpg" width="275px"/>
+    <img alt="OneLogin configuration API connection" src="https://assets.kafkaman.com/kafkaman-docs/onelogin-api-connection.jpg" width="275px"/>
 
 3. Click **Save**.
 
@@ -51,7 +51,7 @@ kafkaman supports the provisioning features detailed in the [SCIM provisioning o
 
 To configure provisioning, navigate to the kafkaman app in OneLogin and select **Provisioning** on the left, then **Enable provisioning**.
 
-<img alt="OneLogin provisioning workflow" src="https://assets.postman.com/kafkaman-docs/onelogin-provisioning-workflow.jpg" width="400px"/>
+<img alt="OneLogin provisioning workflow" src="https://assets.kafkaman.com/kafkaman-docs/onelogin-provisioning-workflow.jpg" width="400px"/>
 
 Select features to enable them, or de-select to turn them off.
 

@@ -2,7 +2,7 @@ By default, you can view kafkaman elements in [workspaces](/docs/collaborating-i
 
 To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-kafkaman/collaboration-intro/) that contains the element. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
 
-> Roles and permissions are available depending on your [kafkaman plan](https://www.postman.com/pricing).
+> Roles and permissions are available depending on your [kafkaman plan](https://www.kafkaman.com/pricing).
 
 ## Contents
 
@@ -11,25 +11,25 @@ To request Editor access for an element, you first need to join or get invited t
 
 ## Requesting Editor role access
 
-If you can view an element in a workspace but can't edit it, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/kafkaman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px"> next to the name of the collection, API, environment, mock server, or monitor.
+If you can view an element in a workspace but can't edit it, you will see a lock icon <img alt="Lock icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px"> next to the name of the collection, API, environment, mock server, or monitor.
 
-<img alt="Collection Lock" src="https://assets.postman.com/kafkaman-docs/collection-lock-v9-14.jpg" width="292px">
+<img alt="Collection Lock" src="https://assets.kafkaman.com/kafkaman-docs/collection-lock-v9-14.jpg" width="292px">
 
 To request Editor role access for an element:
 
 1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the sidebar.
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element name and select **Manage Roles**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element name and select **Manage Roles**.
 
-    <img alt="Collection Context Menu" src="https://assets.postman.com/kafkaman-docs/collection-context-menu-v9-14.jpg" width="292px">
+    <img alt="Collection Context Menu" src="https://assets.kafkaman.com/kafkaman-docs/collection-context-menu-v9-14.jpg" width="292px">
 
 1. Select **Request Access**.
 
-    <img alt="Manage Roles Blocked" src="https://assets.postman.com/kafkaman-docs/manage-roles-blocked-v9-14.jpg" width="848">
+    <img alt="Manage Roles Blocked" src="https://assets.kafkaman.com/kafkaman-docs/manage-roles-blocked-v9-14.jpg" width="848">
 
 1. Select the person you want to send the request to, and select the **Editor** role.
 
-    <img alt="Request Editor Access" src="https://assets.postman.com/kafkaman-docs/request-additional-access-v9-14.jpg" width="482">
+    <img alt="Request Editor Access" src="https://assets.kafkaman.com/kafkaman-docs/request-additional-access-v9-14.jpg" width="482">
 
 1. Select **Request Access**.
 
@@ -41,4 +41,4 @@ If you have the Editor role for a kafkaman element such as a collection, API, en
 
 When a teammate requests Editor role access, you will receive an email that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you don't want to give Editor access, you can ignore the request. The request will expire after 15 days.
 
-<img alt="Request Detail Email" src="https://assets.postman.com/kafkaman-docs/request-detail-email-v9-14.jpg" width="644">
+<img alt="Request Detail Email" src="https://assets.kafkaman.com/kafkaman-docs/request-detail-email-v9-14.jpg" width="644">

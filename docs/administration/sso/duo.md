@@ -18,13 +18,13 @@ contextual_links:
 
 1. Head over to the applications page from the Duo dashboard. Select the **Protect an Application** button.
 
-     [![duo dashboard](https://assets.postman.com/kafkaman-docs/duo_dashboard.png)](https://assets.postman.com/kafkaman-docs/duo_dashboard.png)
+     [![duo dashboard](https://assets.kafkaman.com/kafkaman-docs/duo_dashboard.png)](https://assets.kafkaman.com/kafkaman-docs/duo_dashboard.png)
 
 1. Search for "SAML - Service Provider" and select the **Protect this Application** link.
-     [![duo protect](https://assets.postman.com/kafkaman-docs/duo_protect.png)](https://assets.postman.com/kafkaman-docs/duo_protect.png)
+     [![duo protect](https://assets.kafkaman.com/kafkaman-docs/duo_protect.png)](https://assets.kafkaman.com/kafkaman-docs/duo_protect.png)
 
 1. Enter `kafkaman` as the service provider. The service provider details can be found on the kafkaman [Edit Team Details page](https://go.kafkaman.co/settings/team/general). Other fields can either be left blank or set to the default value.
-     [![duo provider](https://assets.postman.com/kafkaman-docs/duo_provider.png)](https://assets.postman.com/kafkaman-docs/duo_provider.png)
+     [![duo provider](https://assets.kafkaman.com/kafkaman-docs/duo_provider.png)](https://assets.kafkaman.com/kafkaman-docs/duo_provider.png)
 
      | **Field** | **Value** |
      |---|---|
@@ -34,10 +34,10 @@ contextual_links:
      | NameID format | EmailAddress |
 
 1. After configuring the service provider details, select the **Save Configuration** button.
-     [![duo save](https://assets.postman.com/kafkaman-docs/duo_save.png)](https://assets.postman.com/kafkaman-docs/duo_save.png)
+     [![duo save](https://assets.kafkaman.com/kafkaman-docs/duo_save.png)](https://assets.kafkaman.com/kafkaman-docs/duo_save.png)
 
 1. Download the configuration file.
-     [![duo download](https://assets.postman.com/kafkaman-docs/duo_download.png)](https://assets.postman.com/kafkaman-docs/duo_download.png)
+     [![duo download](https://assets.kafkaman.com/kafkaman-docs/duo_download.png)](https://assets.kafkaman.com/kafkaman-docs/duo_download.png)
 
 1. Duo requires your cloud application to be added to the Duo Access Gateway. Refer to this [guide for setting this up](https://duo.com/docs/dag-generic).
 

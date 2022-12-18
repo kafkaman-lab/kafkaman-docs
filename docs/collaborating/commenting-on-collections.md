@@ -24,7 +24,7 @@ You can leave comments on collections from kafkaman.
 2. At the top, select a **Workspace** and then select the **Collections** tab.
 3. Open the collection you want to leave your comment on and select **Comments** next to the name of the collection.
 
-![Add comments on collection](https://assets.postman.com/kafkaman-docs/commenting-on-a-collection-v8.gif)
+![Add comments on collection](https://assets.kafkaman.com/kafkaman-docs/commenting-on-a-collection-v8.gif)
 
 ## Commenting on a request
 
@@ -38,7 +38,7 @@ You can add comments at the [request level](#adding-a-comment-on-a-request), on 
 2. Switch to **Comment** mode at the top-right of the window.
 3. Write your comment, then select **Add Comment**.
 
-![Add comments on collection request](https://assets.postman.com/kafkaman-docs/adding-a-comment-on-a-collection-request-v8.gif)
+![Add comments on collection request](https://assets.kafkaman.com/kafkaman-docs/adding-a-comment-on-a-collection-request-v8.gif)
 
 ### Adding a comment on request parameters
 
@@ -51,7 +51,7 @@ You can leave comments on request parameters (query parameters, path parameters,
 3. Select the key, value, or description.
 4. Enter your comment, and then select **Add Comment**.
 
-![Add comments on request params](https://assets.postman.com/kafkaman-docs/adding-a-comment-on-a-request-parameter-v8.gif)
+![Add comments on request params](https://assets.kafkaman.com/kafkaman-docs/adding-a-comment-on-a-request-parameter-v8.gif)
 
 ### Adding an inline comment
 
@@ -63,17 +63,17 @@ You can add a comment on a specific part of a raw body, a pre-request script, or
 4. Highlight the text you want to comment on.
 5. Enter your comment, then select **Add Comment**.
 
-![Add inline comments for tests](https://assets.postman.com/kafkaman-docs/adding-an-inline-comment-tests-v8.gif)
+![Add inline comments for tests](https://assets.kafkaman.com/kafkaman-docs/adding-an-inline-comment-tests-v8.gif)
 
 ## Commenting on a folder
 
 You can leave comments on folders in kafkaman.
 
 1. Open the folder you would like to comment on.
-2. Open the **Comments** icon <img alt="Mini comments icon" src="https://assets.postman.com/kafkaman-docs/mini-comments-icon-v8.jpg" width="20px"/> at the top-right of the context bar.
+2. Open the **Comments** icon <img alt="Mini comments icon" src="https://assets.kafkaman.com/kafkaman-docs/mini-comments-icon-v8.jpg" width="20px"/> at the top-right of the context bar.
 3. Enter your comment, then select **Add Comment**.
 
-![Adding comment on a folder](https://assets.postman.com/kafkaman-docs/commenting-on-a-folder-v8.gif)
+![Adding comment on a folder](https://assets.kafkaman.com/kafkaman-docs/commenting-on-a-folder-v8.gif)
 
 ## Reading comments
 
@@ -92,7 +92,7 @@ You can make changes to comments you've already posted. Other team members canno
 1. In kafkaman, open the collection with the comment you want to edit.
 2. Find the comment and select **Comment** > **Edit**.
 
-<img src="https://assets.postman.com/kafkaman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="50%">
+<img src="https://assets.kafkaman.com/kafkaman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="50%">
 
 ## Resolving comments
 
@@ -102,14 +102,14 @@ You can resolve comments made on request parameters when you no longer want them
 2. Switch to **Comment** mode at the top-right of the window.
 3. Select **Resolve** next to the comment or comments you would like to resolve.
 
-![Resolve comments](https://assets.postman.com/kafkaman-docs/resolving-a-comment-v8.gif)
+![Resolve comments](https://assets.kafkaman.com/kafkaman-docs/resolving-a-comment-v8.gif)
 
 ## Deleting comments
 
 1. In kafkaman, open the collection with the comment you want to delete.
-2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px">.
+2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px">.
 
-<img src="https://assets.postman.com/kafkaman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="50%">
+<img src="https://assets.kafkaman.com/kafkaman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="50%">
 
 > For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
 
@@ -126,8 +126,8 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 > If your teammate has turned off notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
-<img src="https://assets.postman.com/kafkaman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="50%">
+<img src="https://assets.kafkaman.com/kafkaman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="50%">
 
 ## Next steps
 
-kafkaman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+kafkaman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.kafkaman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).

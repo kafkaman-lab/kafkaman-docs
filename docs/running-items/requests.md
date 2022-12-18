@@ -4,7 +4,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, kafkaman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-[![Request Sent](https://assets.postman.com/kafkaman-docs/sent-request-v9.jpg)](https://assets.postman.com/kafkaman-docs/sent-request-v9.jpg)
+[![Request Sent](https://assets.kafkaman.com/kafkaman-docs/sent-request-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/sent-request-v9.jpg)
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/sending-the-first-request/) before you continue.
 
@@ -31,13 +31,13 @@ Your requests can include multiple details determining the data kafkaman will se
 
 You can create a new request from the kafkaman home screen, by using __New__ &gt; __HTTP Request__, or by selecting the __+__ button to open a new tab.
 
-[![New Screen](https://assets.postman.com/kafkaman-docs/new-request-v9.jpg)](https://assets.postman.com/kafkaman-docs/new-request-v9.jpg)
+[![New Screen](https://assets.kafkaman.com/kafkaman-docs/new-request-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/new-request-v9.jpg)
 
 Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
 Once your new tab is open, you can specify the details you need for your request.
 
-[![New Request](https://assets.postman.com/kafkaman-docs/empty-request-v9.jpg)](https://assets.postman.com/kafkaman-docs/empty-request-v9.jpg)
+[![New Request](https://assets.kafkaman.com/kafkaman-docs/empty-request-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/empty-request-v9.jpg)
 
 ## Adding request detail
 
@@ -71,7 +71,7 @@ By default kafkaman will select the `GET` method for new request. `GET` methods 
 * `PATCH` — update some existing data fields
 * `DELETE` — delete existing data
 
-<img alt="Request Methods" src="https://assets.postman.com/kafkaman-docs/request-methods-v9.jpg" width="300px"/>
+<img alt="Request Methods" src="https://assets.kafkaman.com/kafkaman-docs/request-methods-v9.jpg" width="300px"/>
 
 For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
@@ -98,7 +98,7 @@ To send a query parameter, add it directly to the URL or open __Params__ and ent
 
 To send a path parameter, enter the parameter name into the URL field, after a colon, for example `:id`. When you enter a path parameter, kafkaman will populate it in the __Params__ tab, where you can also edit it.
 
-[![Path Parameter](https://assets.postman.com/kafkaman-docs/path-param-v9.jpg)](https://assets.postman.com/kafkaman-docs/path-param-v9.jpg)
+[![Path Parameter](https://assets.kafkaman.com/kafkaman-docs/path-param-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/path-param-v9.jpg)
 
 You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
 
@@ -127,7 +127,7 @@ Choose the data type you need for your request body—[form data](#form-data), [
 
 Website forms often send data to APIs as `multipart/form-data`. You can replicate this in kafkaman using the `form-data` __Body__ tab. Form data allows you to send key-value pairs, and specify the content type.
 
-[![Form Data](https://assets.postman.com/kafkaman-docs/form-data-v9.jpg)](https://assets.postman.com/kafkaman-docs/form-data-v9.jpg)
+[![Form Data](https://assets.kafkaman.com/kafkaman-docs/form-data-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/form-data-v9.jpg)
 
 > You can attach files using form data. When you repeatedly make API calls that send the same files, kafkaman will persist your file paths for subsequent use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type isn't supported.
 
@@ -141,7 +141,7 @@ URL-encoded data uses the same encoding as URL parameters. If your API requires 
 
 You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type dropdown list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and kafkaman will enable syntax-highlighting as well as appending the relevant headers to your request.
 
-<img alt="Body JSON" src="https://assets.postman.com/kafkaman-docs/body-raw-data.jpg" width="500px"/>
+<img alt="Body JSON" src="https://assets.kafkaman.com/kafkaman-docs/body-raw-data.jpg" width="500px"/>
 
 > You can set a content type header manually if you need to override the one kafkaman sends automatically.
 
@@ -163,7 +163,7 @@ Check out [Using GraphQL](/docs/sending-requests/supported-api-frameworks/graphq
 
 Some APIs require auth details you can send in kafkaman. Authentication involves verifying the identity of the client sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
-[![Request Auth](https://assets.postman.com/kafkaman-docs/authorization-tab-v9.jpg)](https://assets.postman.com/kafkaman-docs/authorization-tab-v9.jpg)
+[![Request Auth](https://assets.kafkaman.com/kafkaman-docs/authorization-tab-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/authorization-tab-v9.jpg)
 
 kafkaman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
 
@@ -175,7 +175,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and kafkaman will send them along with your request. As you type, kafkaman will prompt you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
-![Header Types](https://assets.postman.com/kafkaman-docs/presets-v9.jpg)
+![Header Types](https://assets.kafkaman.com/kafkaman-docs/presets-v9.jpg)
 
 > You can save commonly used headers together in a header preset. In the __Headers__ tab, select __Presets__, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Select __Add__ and your preset will be available in the __Presets__ dropdown list. Selecting the preset will autopopulate the fields in your request headers.
 
@@ -183,17 +183,17 @@ Some APIs require you to send particular headers along with requests, typically 
 
 kafkaman will automatically add certain headers to your requests based on your request selections and settings. Select the __hidden__ button at the top of the headers tab to see what kafkaman will send with your request.
 
-<img alt="Hidden Headers" src="https://assets.postman.com/kafkaman-docs/hidden-headers-button.jpg" width="400px"/>
+<img alt="Hidden Headers" src="https://assets.kafkaman.com/kafkaman-docs/hidden-headers-button.jpg" width="400px"/>
 
 Hover over a header to see its detail. kafkaman will indicate why the header has been added. The detail will indicate how to deactivate or override a header value if you need to.
 
-<img alt="Host Header" src="https://assets.postman.com/kafkaman-docs/autogenerated-host-header-v9.jpg" width="350px"/>
+<img alt="Host Header" src="https://assets.kafkaman.com/kafkaman-docs/autogenerated-host-header-v9.jpg" width="350px"/>
 
 > Deactivating or overriding recommended headers may make your request behave unexpectedly.
 
 If you need to change a header, you can do so in the relevant part of kafkaman, for example the __Authorization__ tab, the request __Body__, __Cookies__ for the request domain, the __Settings__, and in some cases directly in the __Headers__ tab itself.
 
-[![Token Header](https://assets.postman.com/kafkaman-docs/headers-added-v8.jpg)](https://assets.postman.com/kafkaman-docs/headers-added-v8.jpg)
+[![Token Header](https://assets.kafkaman.com/kafkaman-docs/headers-added-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/headers-added-v8.jpg)
 
 If you need to navigate to a different part of the app, kafkaman will show a link on the right-hand side.
 
@@ -213,7 +213,7 @@ Once your headers and other request details are set up, you can select __Send__ 
 
 You can manage Cookies for your domains from kafkaman. Select __Cookies__ under the __Send__ button. For more information, see [Managing cookies](/docs/sending-requests/cookies/).
 
-<img src="https://assets.postman.com/kafkaman-docs/cookies-dialog.jpg" alt="manage cookies dialog" width="450px" />
+<img src="https://assets.kafkaman.com/kafkaman-docs/cookies-dialog.jpg" alt="manage cookies dialog" width="450px" />
 
 ## Choosing custom settings
 
@@ -239,7 +239,7 @@ The processor will be turned on by default in your kafkaman app, however you can
 
 kafkaman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. You will see characters highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
 
-<img alt="Invalid Characters" src="https://assets.postman.com/kafkaman-docs/invalid-character-message-v9.jpg" width="400px"/>
+<img alt="Invalid Characters" src="https://assets.kafkaman.com/kafkaman-docs/invalid-character-message-v9.jpg" width="400px"/>
 
 If kafkaman isn't able to send your request or doesn't receive a response, you will see details outlining the error. Select __View in Console__ to see an overview of your request and identify the source of the issue.
 

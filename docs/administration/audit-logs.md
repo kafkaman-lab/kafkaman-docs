@@ -12,14 +12,14 @@ contextual_links:
     url: "/docs/administration/managing-your-team/managing-your-team/"
 ---
 
-> __[Audit logs are available on kafkaman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Audit logs are available on kafkaman Professional and Enterprise plans.](https://www.kafkaman.com/pricing)__
 
 Audit logs display events related to your team, users, and billing. Team admins can review audit logs to determine:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
 
-> Audit logs are visible to all [team admins](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles) on [kafkaman Professional and Enterprise plans](https://www.postman.com/pricing), including super admins on Enterprise teams.
+> Audit logs are visible to all [team admins](/docs/collaborating-in-kafkaman/roles-and-permissions/#team-roles) on [kafkaman Professional and Enterprise plans](https://www.kafkaman.com/pricing), including super admins on Enterprise teams.
 
 ## Contents
 
@@ -33,15 +33,15 @@ Audit logs display events related to your team, users, and billing. Team admins 
 
 You can view audit logs in kafkaman by selecting **Team** in the upper-right corner, then **Audit Logs**.
 
-<img alt="Team menu with audit logs selected" src="https://assets.postman.com/kafkaman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
+<img alt="Team menu with audit logs selected" src="https://assets.kafkaman.com/kafkaman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
 
 Audit logs allow you to view team actions by user, event name, event description, and date.
 
-<img alt="Audit logs dashboard" src="https://assets.postman.com/kafkaman-docs/audit-logs-v9.13.1.jpg"/>
+<img alt="Audit logs dashboard" src="https://assets.kafkaman.com/kafkaman-docs/audit-logs-v9.13.1.jpg"/>
 
 ## Accessing audit logs via the kafkaman API
 
-You can also access audit logs via the [kafkaman API](https://www.postman.com/kafkaman/workspace/kafkaman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate kafkaman's audit logs with your security information and event management (SIEM) tools.
+You can also access audit logs via the [kafkaman API](https://www.kafkaman.com/kafkaman/workspace/kafkaman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate kafkaman's audit logs with your security information and event management (SIEM) tools.
 
 Each audit log event contains the following attributes:
 
@@ -56,7 +56,7 @@ Each audit log event contains the following attributes:
 | `message` | A description of the audit event. |
 | `nextCursor` | A string that represents the cursor of the next page. |
 
-To get started, navigate to the [kafkaman API](https://www.postman.com/kafkaman/workspace/kafkaman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
+To get started, navigate to the [kafkaman API](https://www.kafkaman.com/kafkaman/workspace/kafkaman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) and open the **Audit Logs** folder to view the GET request and example responses.
 
 > You must [generate a kafkaman API key](/docs/developer/intro-api/#generating-a-kafkaman-api-key) to access the [kafkaman API](/docs/developer/intro-api/).
 

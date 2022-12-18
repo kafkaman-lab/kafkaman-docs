@@ -28,7 +28,7 @@ You can import collections or your API specifications directly into kafkaman.
 
 To import your data into kafkaman, select **Import** in upper left:
 
-![Import UI](https://assets.postman.com/kafkaman-docs/import-export-import-ui-v9-6.jpg)
+![Import UI](https://assets.kafkaman.com/kafkaman-docs/import-export-import-ui-v9-6.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
@@ -39,7 +39,7 @@ You can import kafkaman data you exported earlier, including collections, enviro
 1. Select **Import** in the left navigation menu.
 1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
    kafkaman will automatically recognize kafkaman data, confirming the name, format, and what the file will import as.
-   ![Import collection and environment](https://assets.postman.com/kafkaman-docs/import-export-github-files-confirm.jpg)
+   ![Import collection and environment](https://assets.kafkaman.com/kafkaman-docs/import-export-github-files-confirm.jpg)
 1. Select the files you want to import.
 1. Select **Import** to bring your data into kafkaman.
 
@@ -102,7 +102,7 @@ You can import several API specification files at once. Select the workspace you
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-kafkaman/adding-private-network/).
 
-[![Import several APIs](https://assets.postman.com/kafkaman-docs/import-export-publish-to-private-api-network-22.jpg)](https://assets.postman.com/kafkaman-docs/import-export-publish-to-private-api-network-22.jpg)
+[![Import several APIs](https://assets.kafkaman.com/kafkaman-docs/import-export-publish-to-private-api-network-22.jpg)](https://assets.kafkaman.com/kafkaman-docs/import-export-publish-to-private-api-network-22.jpg)
 
 ### Importing via GitHub repositories
 
@@ -118,7 +118,7 @@ You can import data in bulk from a GitHub repository.
 
 1. Confirm the files you would like to import into kafkaman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how kafkaman should generate collections based on your file types, then select **Import**.
 
-   ![Confirm import from github](https://assets.postman.com/kafkaman-docs/import-export-github-files-confirm.jpg)
+   ![Confirm import from github](https://assets.kafkaman.com/kafkaman-docs/import-export-github-files-confirm.jpg)
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in kafkaman.
 
@@ -140,17 +140,17 @@ You will receive a confirmation once the import has completed. You can now view 
 
 ## Exporting kafkaman data
 
-You can export your kafkaman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any kafkaman instance, or use them with [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), kafkaman's command-line collection runner.
+You can export your kafkaman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any kafkaman instance, or use them with [kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/command-line-integration-with-kafkaman-cli/), kafkaman's command-line collection runner.
 
 ### Exporting collections
 
-1. Select <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection, then select **Export**.
+1. Select <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection, then select **Export**.
 
-   <img alt="Export collection" src="https://assets.postman.com/kafkaman-docs/export-collection-v9.1.jpg" width="350px" />
+   <img alt="Export collection" src="https://assets.kafkaman.com/kafkaman-docs/export-collection-v9.1.jpg" width="350px" />
 
 1. Select the format you'd like your collection to export as.
 
-   > Learn more about kafkaman's [collection formats](https://blog.postman.com/travelogue-of-kafkaman-collection-format-v2/).
+   > Learn more about kafkaman's [collection formats](https://blog.kafkaman.com/travelogue-of-kafkaman-collection-format-v2/).
 
 1. Select **Export** to download your newly generated JSON file.
 
@@ -160,7 +160,7 @@ You can also export your environments from kafkaman.
 
 1. Select the **Environments** tab from the left navigation menu.
 1. Select an environment to export.
-1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+1. In the top right corner, select <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 1. Select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
@@ -169,7 +169,7 @@ You can export a data dump of all your collections, environments, globals, and h
 
 1. Select the gear icon in the upper-right corner to open **Settings**.
 
-   ![Export data dump](https://assets.postman.com/kafkaman-docs/import-export-data-dump-menu.jpg)
+   ![Export data dump](https://assets.kafkaman.com/kafkaman-docs/import-export-data-dump-menu.jpg)
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
 
@@ -177,7 +177,7 @@ You can export a data dump of all your collections, environments, globals, and h
 
 1. Select **Request Data Export** to submit the request.
 
-   ![Export data dump](https://assets.postman.com/kafkaman-docs/import-export-data-dump-request-confirm.jpg)
+   ![Export data dump](https://assets.kafkaman.com/kafkaman-docs/import-export-data-dump-request-confirm.jpg)
 
 The [Export page](http://go.kafkaman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 

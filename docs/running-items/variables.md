@@ -16,13 +16,13 @@ _Variables_ enable you to store and reuse values in kafkaman. By storing a value
 
 To try out a variable:
 
-1. Select the __Environment quick look__ <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right of kafkaman.
+1. Select the __Environment quick look__ <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right of kafkaman.
 1. Next to **Globals**, select __Edit__.
 1. Add a variable named `my_variable` and give it an initial value of `Hello`.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** and close the environment dialog.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** and close the environment dialog.
 1. Open a new request tab and enter `https://kafkaman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name and you'll see the variable's value and scope.
 
-    <img alt="View the variable value and scope" src="https://assets.postman.com/kafkaman-docs/variable-quick-start-hover.jpg" width="525px"/>
+    <img alt="View the variable value and scope" src="https://assets.kafkaman.com/kafkaman-docs/variable-quick-start-hover.jpg" width="525px"/>
 
 1. Select __Send__ and send the request. In the response, you'll see that kafkaman sent the variable value to the API.
 1. Try changing the value in the Environment quick look and sending the request again.
@@ -35,13 +35,13 @@ For example, if you have the same URL in more than one request, but the URL migh
 
 The same principle applies to any part of your request where data is repeated. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://kafkaman-echo.com`, and is listed as part of the request URL using `{{base_url}}/get`, kafkaman will send the request to `https://kafkaman-echo.com/get`.
 
-![Environment editor](https://assets.postman.com/kafkaman-docs/environment-editor-new-v9.13.jpg)
+![Environment editor](https://assets.kafkaman.com/kafkaman-docs/environment-editor-new-v9.13.jpg)
 
-<a href="https://assets.postman.com/kafkaman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/kafkaman-docs/reference-var-v9.jpg" width="300px"/></a>
+<a href="https://assets.kafkaman.com/kafkaman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.kafkaman.com/kafkaman-docs/reference-var-v9.jpg" width="300px"/></a>
 
 Variables in kafkaman are key-value pairs. Each variable name represents its key, so referencing the variable name allows you to access its value.
 
-You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.postman.com/kafkaman/workspace/kafkaman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
+You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.kafkaman.com/kafkaman/workspace/kafkaman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
 
 You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Managing environments](/docs/sending-requests/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
@@ -54,7 +54,7 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 * **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-kafkaman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in kafkaman, they are well-suited for testing and prototyping, but more specific scopes should be used in later development phases.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
 * **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
-* **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
+* **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
 > If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
@@ -72,33 +72,33 @@ Beyond scope, global and environment variables can also be defined by type. The 
 
 Users with [Editor](/docs/collaborating-in-kafkaman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
 
-> Regardless of the type you configure for a variable, kafkaman stores variables as strings on its servers. To learn about how kafkaman keeps your data safe, see [Security at kafkaman](https://www.postman.com/trust/security/).
+> Regardless of the type you configure for a variable, kafkaman stores variables as strings on its servers. To learn about how kafkaman keeps your data safe, see [Security at kafkaman](https://www.kafkaman.com/trust/security/).
 
 To set the variable type to secret:
 
-1. Select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of kafkaman.
+1. Select the Environment quick look <img alt="Environment quick look icon" src="https://assets.kafkaman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of kafkaman.
 1. Select **Edit** to the right of environment or global variables to open the editor.
 
-    <img alt="Environment editor" src="https://assets.postman.com/kafkaman-docs/environment-editor-default-v9.13.jpg">
+    <img alt="Environment editor" src="https://assets.kafkaman.com/kafkaman-docs/environment-editor-default-v9.13.jpg">
 
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
 1. Select **default** next to the variable you want to change to open the dropdown, then select **secret** to update the variable type.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
-<img alt="Environment editor" src="https://assets.postman.com/kafkaman-docs/environment-editor-secret-v9.13.jpg">
+<img alt="Environment editor" src="https://assets.kafkaman.com/kafkaman-docs/environment-editor-secret-v9.13.jpg">
 
 ### Changing from secret to default variable type
 
 You must have [Editor](/docs/collaborating-in-kafkaman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) to control variable type. Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
-<img alt="Confirm unmark variable as secret" src="https://assets.postman.com/kafkaman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
+<img alt="Confirm unmark variable as secret" src="https://assets.kafkaman.com/kafkaman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
 
 ### Viewing and changing secret variable values
 
-All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
+All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.kafkaman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
 
-Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the current value.
+Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.kafkaman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.kafkaman.com/kafkaman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the current value.
 
 ## Defining variables
 
@@ -108,15 +108,15 @@ You can also define variables at any scope in the request builder:
 
 1. Select the data you need, for example in the address, parameters, headers, or body. Select **Set as variable**.
 
-    <img src="https://assets.postman.com/kafkaman-docs/set-as-var-prompt.jpg" alt="Set as variable" width="450px"/>
+    <img src="https://assets.kafkaman.com/kafkaman-docs/set-as-var-prompt.jpg" alt="Set as variable" width="450px"/>
 
 1. Select **Set as a new variable**.
 
-    <img src="https://assets.postman.com/kafkaman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
+    <img src="https://assets.kafkaman.com/kafkaman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
 
 1. Enter a **Name**, verify the **Value**, and select a scope from the drop-down list. Select **Set variable**.
 
-    <img src="https://assets.postman.com/kafkaman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
+    <img src="https://assets.kafkaman.com/kafkaman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
 > Remember to delete variables you are no longer using.
 
@@ -127,7 +127,7 @@ You can set the values for existing variables to values from a request's respons
 1. Select the text, then right-click or Control-click.
 1. Select the relevant scope (environment or global), then select the name of the variable.
 
-<img alt="Set Variable from Text" src="https://assets.postman.com/kafkaman-docs/set-var-text.jpg" width="400px"/>
+<img alt="Set Variable from Text" src="https://assets.kafkaman.com/kafkaman-docs/set-var-text.jpg" width="400px"/>
 
 ### Defining global variables
 
@@ -136,7 +136,7 @@ To view global variables:
 1. Select **Environments** in the left sidebar.
 1. Select **Globals**.
 
-> You can also view global variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+> You can also view global variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the global section.
 
@@ -145,12 +145,12 @@ To add a new global variable:
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
 1. Add an **Inital Value**, and if you choose, a **Current Value**.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 To edit an existing global variable:
 
 1. Change the desired variable value.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 You can also [define global variables in scripts](#defining-variables-in-scripts).
 
@@ -170,7 +170,7 @@ To view environment variables:
 1. Select **Environments** in the left sidebar.
 1. Select the environment you want to see variables for.
 
-> You can also view environment variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+> You can also view environment variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the environment section.
 
@@ -179,12 +179,12 @@ To add a new environment variable:
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
 1. Add an **Inital Value**, and if you choose, a **Current Value**.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 To edit an existing environment variable:
 
 1. Change the desired variable value.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 > * If you have Editor access to the environment, you can add and edit variables.
 > * If you have Viewer access to the environment, you are restricted to updating the _current value_ of existing variables. Any variables you edit are accessible to you, but not to collaborators in your [workspace](/docs/collaborating-in-kafkaman/using-workspaces/creating-workspaces/).
@@ -202,7 +202,7 @@ To create or edit a variable for an existing collection:
 1. Select **Collections** in the left sidebar.
 1. Select a collection, and then select the **Variables** tab.
 
-[![Edit Collection](https://assets.postman.com/kafkaman-docs/collection-variables-v9.jpg)](https://assets.postman.com/kafkaman-docs/collection-variables-v9.jpg)
+[![Edit Collection](https://assets.kafkaman.com/kafkaman-docs/collection-variables-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/collection-variables-v9.jpg)
 
 > If you don't have Editor access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-kafkaman/requesting-access-to-collections/) to the collection.
 
@@ -226,7 +226,7 @@ For instructions on how to use variables in pre-request or test scripts, see [Us
 
 ### Specifying variable detail
 
-You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/). Use the checkbox to the left of a variable to activate or deactivate a variable.
+You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from [scripts](https://learning.kafkaman.com/docs/writing-scripts/intro-to-scripts/). Use the checkbox to the left of a variable to activate or deactivate a variable.
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local versus synced variables.
 
@@ -260,19 +260,19 @@ If you are want to access a variable from within a request body, wrap its refere
 
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
-[![Variables in Request](https://assets.postman.com/kafkaman-docs/var-auth-v8.jpg)](https://assets.postman.com/kafkaman-docs/var-auth-v8.jpg)
+[![Variables in Request](https://assets.kafkaman.com/kafkaman-docs/var-auth-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/var-auth-v8.jpg)
 
 When you hover over a variable you can see an overview of its current status. As you type variables into your requests, kafkaman prompts you with any that are currently defined.
 
-![Variable Prompt](https://assets.postman.com/kafkaman-docs/var-prompt.jpg)
+![Variable Prompt](https://assets.kafkaman.com/kafkaman-docs/var-prompt.jpg)
 
 The prompt indicates the current value, scope (highlighted by color), and overridden status where relevant.
 
-![Overridden Variable](https://assets.postman.com/kafkaman-docs/overridden-var.jpg)
+![Overridden Variable](https://assets.kafkaman.com/kafkaman-docs/overridden-var.jpg)
 
 If a variable is unresolved, kafkaman highlights it in red. For information on how to fix an unresolved variable, see [Fixing unresolved variables](#fixing-unresolved-variables).
 
-<img alt="Unresolved variable" src="https://assets.postman.com/kafkaman-docs/unresolved-variable-v9.jpg" width="700px"/>
+<img alt="Unresolved variable" src="https://assets.kafkaman.com/kafkaman-docs/unresolved-variable-v9.jpg" width="700px"/>
 
 ### Using dynamic variables
 
@@ -319,7 +319,7 @@ console.log(pm.variables.get("variable_key"));
 
 To view the results, open the console from the button on the bottom left of kafkaman, or from the __View__ menu.
 
-[![Logging Variable](https://assets.postman.com/kafkaman-docs/log-var-v8.jpg)](https://assets.postman.com/kafkaman-docs/log-var-v8.jpg)
+[![Logging Variable](https://assets.kafkaman.com/kafkaman-docs/log-var-v8.jpg)](https://assets.kafkaman.com/kafkaman-docs/log-var-v8.jpg)
 
 ### Using data variables
 
@@ -340,14 +340,14 @@ Using __Persist__ makes your current value [sync](/docs/getting-started/syncing/
 To persist individual values:
 
 1. Hover over a variable's current value.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the value.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the value.
 1. Select **Persist**.
 
 Your local session in kafkaman can use values that are transient and visible to you, but aren't synced or shared with your team. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
 > For example, your team could have a shared API key and individual API keys. You could do experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but aren't ready to share with the team. You can later choose to persist the local data so that others on your team can also access it.
 
-You can edit a current value inline from the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of kafkaman.
+You can edit a current value inline from the **Environment quick look** <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of kafkaman.
 
 For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
 
@@ -368,13 +368,13 @@ A variable can be unresolved for a few reasons:
 
 When you are working on an API request, kafkaman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. kafkaman highlights unresolved variable text in red. To see more details about the error and how to resolve it, hover over the unresolved variable.
 
-<img alt="Unresolved variable" src="https://assets.postman.com/kafkaman-docs/unresolved-variable-v9.jpg" width="700px"/>
+<img alt="Unresolved variable" src="https://assets.kafkaman.com/kafkaman-docs/unresolved-variable-v9.jpg" width="700px"/>
 
 To check if the variable is available and in scope for the request:
 
 1. Select one of the **collection** or **globals** links. To turn on an environment, use the **select an **environment** link.
 1. Turn on or make the necessary changes to the value of the variable.
-1. Select <img alt="Save icon" src="https://assets.postman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 If the variable is unresolved because it doesn't exist:
 
@@ -382,7 +382,7 @@ If the variable is unresolved because it doesn't exist:
 1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Set variable**.
 
-<img alt="Set an unresolved variable" src="https://assets.postman.com/kafkaman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
+<img alt="Set an unresolved variable" src="https://assets.kafkaman.com/kafkaman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
 > Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they are not stored and are only used at runtime, but if they are set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they are set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or kafkaman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
 

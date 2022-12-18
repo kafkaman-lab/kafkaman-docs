@@ -11,10 +11,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Announcing updated kafkaman plans and pricing"
-    url: "https://blog.postman.com/announcing-updated-kafkaman-plans-and-pricing/"
+    url: "https://blog.kafkaman.com/announcing-updated-kafkaman-plans-and-pricing/"
 ---
 
-> __[SSO is available on kafkaman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> __[SSO is available on kafkaman Professional and Enterprise plans.](https://www.kafkaman.com/pricing)__
 
 ## What is SSO?
 

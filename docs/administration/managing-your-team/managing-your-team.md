@@ -16,14 +16,14 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Manage Large Teams in kafkaman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/kafkaman-team-workspaces-and-permissions/"
+    url: "https://blog.kafkaman.com/kafkaman-team-workspaces-and-permissions/"
   - type: link
     name: "Govern Your Public API Collections More Effectively"
-    url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
+    url: "https://blog.kafkaman.com/govern-your-public-api-collections-more-effectively/"
 
 ---
 
-> __[Certain team options are only available on kafkaman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Certain team options are only available on kafkaman Basic, Professional, and Enterprise plans.](https://www.kafkaman.com/pricing)__
 
 kafkaman provides a number of ways to manage your team.
 
@@ -46,13 +46,13 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members individually by selecting **Team** in the upper right > [**Manage Team**](https://go.kafkaman.co/settings/team/members).
 
-An admin can manage which team members have **Admin** and **Developer** roles. If you are on a [kafkaman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a **Community Manager**. If you are on a kafkaman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
+An admin can manage which team members have **Admin** and **Developer** roles. If you are on a [kafkaman Professional or Enterprise](https://www.kafkaman.com/pricing) plan, an admin will also have the option of assigning a **Community Manager**. If you are on a kafkaman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
 
 Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
 
 Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
 
-<img alt="Edit team roles" src="https://assets.postman.com/kafkaman-docs/members-and-groups-update-roles-9.5.jpg"/>
+<img alt="Edit team roles" src="https://assets.kafkaman.com/kafkaman-docs/members-and-groups-update-roles-9.5.jpg"/>
 
 Each team member must have a minimum of one role assigned to them.
 
@@ -70,7 +70,7 @@ To allow kafkaman users from your company to request to join your team, [enable 
 
 Navigate to [Manage Team](https://go.kafkaman.co/settings/team/members) and select **Invite People**. Enter the email address of the individual you would like to invite, select **Add**, edit their roles, then **Send Invites**.
 
-<img alt="Invite users to team" src="https://assets.postman.com/kafkaman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
+<img alt="Invite users to team" src="https://assets.kafkaman.com/kafkaman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
 
 Alternatively, you can invite users to your team via links. To do so, select **Get Link**.
 
@@ -78,11 +78,11 @@ Alternatively, you can invite users to your team via links. To do so, select **G
 
 Select [**Invite links**](https://go.kafkaman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
 
-<img alt="Invite links dashboard" src="https://assets.postman.com/kafkaman-docs/team-manage-invite-links-v9.2.jpg"/>
+<img alt="Invite links dashboard" src="https://assets.kafkaman.com/kafkaman-docs/team-manage-invite-links-v9.2.jpg"/>
 
-To copy the invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/kafkaman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> to the right.
+To copy the invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> to the right.
 
-To revoke an invitation, hover over the invitation and select the trash can icon <img alt="Delete link icon" src="https://assets.postman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to the right.
+To revoke an invitation, hover over the invitation and select the trash can icon <img alt="Delete link icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to the right.
 
 ## Changing team size
 
@@ -90,13 +90,13 @@ To change your team size, see [Changing your plan](/docs/administration/billing/
 
 ## Removing team members
 
-To remove a member from your team, navigate to your team's page > **Members and groups**. Select the <img alt="External link icon" src="https://assets.postman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> icon next the team member's name.
+To remove a member from your team, navigate to your team's page > **Members and groups**. Select the <img alt="External link icon" src="https://assets.kafkaman.com/kafkaman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> icon next the team member's name.
 
-![Removing a team member](https://assets.postman.com/kafkaman-docs/remove-member.jpg)
+![Removing a team member](https://assets.kafkaman.com/kafkaman-docs/remove-member.jpg)
 
 To confirm, select **Remove User From Team**.
 
-![Confirmation for removing a team member](https://assets.postman.com/kafkaman-docs/remove-user-from-team-confirmation.jpg)
+![Confirmation for removing a team member](https://assets.kafkaman.com/kafkaman-docs/remove-user-from-team-confirmation.jpg)
 
 > When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data will not be transferred when they are removed from your team.
 

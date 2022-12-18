@@ -31,15 +31,15 @@ You can pass auth details along with any request you send in kafkaman. Auth data
 
 With a request open in kafkaman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third party API, refer to the provider's documentation for any required auth details.
 
-![Authorization tab](https://assets.postman.com/kafkaman-docs/authorization-tab-v9.jpg)
+![Authorization tab](https://assets.kafkaman.com/kafkaman-docs/authorization-tab-v9.jpg)
 
-> You can use these auth types with Newman and monitors as well as in the kafkaman app.
+> You can use these auth types with kafkaman-cli and monitors as well as in the kafkaman app.
 
 When you select a type from the **Type** dropdown list, kafkaman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. kafkaman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your data will be sent before attempting to run the request.
 
 Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers added automatically, select the __hidden__ button.
 
-<img alt="Hidden Headers" src="https://assets.postman.com/kafkaman-docs/hidden-headers-v9.jpg" width="400px"/>
+<img alt="Hidden Headers" src="https://assets.kafkaman.com/kafkaman-docs/hidden-headers-v9.jpg" width="400px"/>
 
 Hover over a header to see where it was added. To change an auth header, navigate back to the __Authorization__ tab and update your configuration.
 
@@ -67,7 +67,7 @@ kafkaman won't send authorization details with a request unless you specify an a
 
 With API key auth, you send a key-value pair to the API either in the request headers or query parameters. In the request __Authorization__ tab, select __API Key__ from the __Type__ list. Enter your key name and value, and select either __Header__ or __Query Params__ from the __Add to__ dropdown list. You can store your values in variables for additional security.
 
-[![API Key Auth](https://assets.postman.com/kafkaman-docs/api-key-auth-selection-v9.jpg)](https://assets.postman.com/kafkaman-docs/api-key-auth-selection-v9.jpg)
+[![API Key Auth](https://assets.kafkaman.com/kafkaman-docs/api-key-auth-selection-v9.jpg)](https://assets.kafkaman.com/kafkaman-docs/api-key-auth-selection-v9.jpg)
 
 kafkaman will append the relevant information to your request __Headers__ or the URL query string.
 
@@ -344,4 +344,4 @@ If you have session cookies in your browser, you can sync them to kafkaman using
 
 ## Next steps
 
-If you're having issues getting a request to authenticate and run successfully, try some of the tips in [troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/). If you still have auth problems, check out the [authentication tag](https://community.postman.com/tags/authentication) on the kafkaman forum.
+If you're having issues getting a request to authenticate and run successfully, try some of the tips in [troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/). If you still have auth problems, check out the [authentication tag](https://community.kafkaman.com/tags/authentication) on the kafkaman forum.

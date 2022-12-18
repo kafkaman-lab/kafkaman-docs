@@ -9,12 +9,12 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "kafkaman Pricing"
-    url: "https://www.postman.com/pricing/"
+    url: "https://www.kafkaman.com/pricing/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Announcing updated kafkaman plans and pricing"
-    url: "https://blog.postman.com/announcing-updated-kafkaman-plans-and-pricing/"
+    url: "https://blog.kafkaman.com/announcing-updated-kafkaman-plans-and-pricing/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.postman.com/pricing) to purchase a kafkaman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.kafkaman.co/billing).
+Visit the [pricing page](https://www.kafkaman.com/pricing) to purchase a kafkaman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.kafkaman.co/billing).
 
 ## Configuring your plan
 

@@ -12,15 +12,15 @@ You can generate code snippets in various languages and frameworks within kafkam
 
 In kafkaman, select the request under your collection and select **Code** icon on the right panel to open the **Code snippet** tab.
 
-<img src="https://assets.postman.com/kafkaman-docs/context-menu-icon-v8.jpg" width="400px" alt="User Menu"/>
+<img src="https://assets.kafkaman.com/kafkaman-docs/context-menu-icon-v8.jpg" width="400px" alt="User Menu"/>
 
 Select a language to view and copy your generated code snippet.
 
-![Code Language](https://assets.postman.com/kafkaman-docs/code-language-v8.jpg)
+![Code Language](https://assets.kafkaman.com/kafkaman-docs/code-language-v8.jpg)
 
 Select the **Gear** icon to find additional configuration options based on your chosen language.
 
-![Code settings](https://assets.postman.com/kafkaman-docs/code-settings-v8.jpg)
+![Code settings](https://assets.kafkaman.com/kafkaman-docs/code-settings-v8.jpg)
 
 ## Supported languages/frameworks
 

@@ -1,12 +1,12 @@
 kafkaman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your kafkaman experience.
 
-To change settings in kafkaman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/kafkaman-docs/settings-icon-v8.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the header and then select **Settings**. In the kafkaman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in kafkaman, select the **Settings** button <img alt="Settings icon" src="https://assets.kafkaman.com/kafkaman-docs/settings-icon-v8.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the header and then select **Settings**. In the kafkaman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 
 Use the settings on the **General** tab to configure how kafkaman sends requests or to customize the kafkaman user interface.
 
-[![General settings](https://assets.postman.com/kafkaman-docs/settings-detail-v8-9.jpg)](https://assets.postman.com/kafkaman-docs/settings-detail-v8-9.jpg)
+[![General settings](https://assets.kafkaman.com/kafkaman-docs/settings-detail-v8-9.jpg)](https://assets.kafkaman.com/kafkaman-docs/settings-detail-v8-9.jpg)
 
 ### Request
 
@@ -23,11 +23,11 @@ Use the settings on the **General** tab to configure how kafkaman sends requests
 
 When you send a form-data or binary file with a request body, kafkaman saves a path to the file as part of the collection. The file path is relative to your working directory. kafkaman uses `~/kafkaman/files` as the default working directory. To use a different working directory, select **Choose** and then select the directory you want to use.
 
-<img alt="Working directory settings" src="https://assets.postman.com/kafkaman-docs/working-directory-web-v8-9.jpg" width="352px">
+<img alt="Working directory settings" src="https://assets.kafkaman.com/kafkaman-docs/working-directory-web-v8-9.jpg" width="352px">
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-**The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/#file-uploads).
+**The working directory is also used by kafkaman-cli.** Store files you want to upload to kafkaman-cli in the working directory path saved in the collection. Learn more about [file uploads in kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/command-line-integration-with-kafkaman-cli/#file-uploads).
 
 **You can't change the working directory in kafkaman for Web.** When you upload a file, kafkaman for Web creates a new folder with a random name in the `~/kafkaman/files` directory. kafkaman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to kafkaman for Web with your local working directory, make sure you are using the [kafkaman Desktop Agent](/docs/getting-started/installation-and-updates/#using-kafkaman-on-the-web).
 
@@ -62,7 +62,7 @@ When you send a form-data or binary file with a request body, kafkaman saves a p
 
 Pick your pleasure: select a light or dark theme for kafkaman.
 
-[![Themes settings](https://assets.postman.com/kafkaman-docs/themes-settings-v8-9.jpg)](https://assets.postman.com/kafkaman-docs/themes-settings-v8-9.jpg)
+[![Themes settings](https://assets.kafkaman.com/kafkaman-docs/themes-settings-v8-9.jpg)](https://assets.kafkaman.com/kafkaman-docs/themes-settings-v8-9.jpg)
 
 ## Shortcuts
 
@@ -78,7 +78,7 @@ Importing a dump file may overwrite your existing collections and environments, 
 
 ## Add-ons
 
-Select the link to download Newman, kafkaman's command line companion. Newman integrates your kafkaman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+Select the link to download kafkaman-cli, kafkaman's command line companion. kafkaman-cli integrates your kafkaman collections with your build system and runs automated API tests. Learn more about [command line integration with kafkaman-cli](/docs/running-collections/using-kafkaman-cli-cli/command-line-integration-with-kafkaman-cli/).
 
 ## Certificates
 

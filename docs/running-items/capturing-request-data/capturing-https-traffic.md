@@ -36,12 +36,12 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. On the **System Properties** window, select **Environment Variables**.
 1. Select **Path** under **User variables**, and then select **Edit**.
 
-    ![download OpenSSL installer](https://assets.postman.com/kafkaman-docs/windows-environment-variables-edit-browse-bb.jpg)
+    ![download OpenSSL installer](https://assets.kafkaman.com/kafkaman-docs/windows-environment-variables-edit-browse-bb.jpg)
 
 1. Select **Browse**.
 1. Navigate to and select **This PC > Local Disk (C:) > Program Files > OpenSSL-Win64 > bin**.
 
-    ![download OpenSSL installer](https://assets.postman.com/kafkaman-docs/windows-oppssl-environment-variables-bin.jpg)
+    ![download OpenSSL installer](https://assets.kafkaman.com/kafkaman-docs/windows-oppssl-environment-variables-bin.jpg)
 
 1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
 1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You should see output similar to the following:
@@ -56,13 +56,13 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 1. Right-click on the **kafkaman-proxy-ca.crt** file and select **Install Certificate**.
 
-    [![Select crt file](https://assets.postman.com/kafkaman-docs/windows-install-crt-aa.jpeg)](https://assets.postman.com/kafkaman-docs/windows-install-crt-aa.jpeg)
+    [![Select crt file](https://assets.kafkaman.com/kafkaman-docs/windows-install-crt-aa.jpeg)](https://assets.kafkaman.com/kafkaman-docs/windows-install-crt-aa.jpeg)
 
 1. Select **Local Machine** and select **Next**. This action requires Administrator permissions. Select **Yes** to proceed.
 1. Select **Place all certificates in the following store**.
 1. Select **Browse** and then select **Trusted Root Certification Authorities**.
 
-    [![Select trust root crt authorities](https://assets.postman.com/kafkaman-docs/windows-crt-install-store-aa.jpeg)](https://assets.postman.com/kafkaman-docs/windows-crt-install-store-aa.jpeg)
+    [![Select trust root crt authorities](https://assets.kafkaman.com/kafkaman-docs/windows-crt-install-store-aa.jpeg)](https://assets.kafkaman.com/kafkaman-docs/windows-crt-install-store-aa.jpeg)
 
 1. Select **OK** and then select **Next**.
 1. Select **Finish** to import the certificate.
@@ -75,10 +75,10 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Select **System** in the **Keychain** list, and then select **Add**. Enter your system password to confirm the action.
 1. In Keychain Access, double-click the imported kafkaman certificate to open it.
 
-    [![Select System keychains](https://assets.postman.com/kafkaman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.postman.com/kafkaman-docs/mac-install-new-crt-v9-1.jpg)
+    [![Select System keychains](https://assets.kafkaman.com/kafkaman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.kafkaman.com/kafkaman-docs/mac-install-new-crt-v9-1.jpg)
 
 1. Expand the **Trust** section. Select the option to **Always Trust** when using this certificate, and make sure **Always Trust** is selected for **Secure Sockets Layer(SSL)**.
-    [![Select always trust for kafkaman keychain](https://assets.postman.com/kafkaman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.postman.com/kafkaman-docs/mac-install-crt-always-trust-v9-1.jpg)
+    [![Select always trust for kafkaman keychain](https://assets.kafkaman.com/kafkaman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.kafkaman.com/kafkaman-docs/mac-install-crt-always-trust-v9-1.jpg)
 
 1. Close the certificate window. Enter your system password to update the settings.
 
@@ -129,7 +129,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Select the **kafkaman-proxy-ca.crt** and select **Open**.
 1. Select **Trust this CA to identify websites** and select **OK**.
 
-    [![Select trust CA crt](https://assets.postman.com/kafkaman-docs/firefox-trust-crt-aa.jpeg)](https://assets.postman.com/kafkaman-docs/firefox-trust-crt-aa.jpeg)
+    [![Select trust CA crt](https://assets.kafkaman.com/kafkaman-docs/firefox-trust-crt-aa.jpeg)](https://assets.kafkaman.com/kafkaman-docs/firefox-trust-crt-aa.jpeg)
 
 ## iOS
 
@@ -162,7 +162,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 > **Need to capture requests from an Android app?** To capture requests from an Android app, you need to add a network security configuration file to your app to trust the `kafkaman-proxy-ca.crt` certificate. For more information, see [Trust additional CAs](https://developer.android.com/training/articles/security-config#TrustingAdditionalCas) on the Android Developers portal.
 
-<img src="https://assets.postman.com/kafkaman-docs/proxy-android-certificate-v9-1.jpg" alt="Android certificate installed" width="350">
+<img src="https://assets.kafkaman.com/kafkaman-docs/proxy-android-certificate-v9-1.jpg" alt="Android certificate installed" width="350">
 
 ## Troubleshooting certificate issues
 
