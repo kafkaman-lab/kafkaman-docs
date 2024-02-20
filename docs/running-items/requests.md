@@ -27,7 +27,7 @@ If you have never sent a request before, check out [sending your first request](
 
 ## Creating requests
 
-Your requests can include multiple details determining the data kafkaman will send to the API you are working with. Enter a URL and choose a method, then optionally specify a variety of other details.
+Your requests can include multiple details determining the data kafkaman will send to the API you are working with. Choose a method and a Topic Name, then optionally specify a variety of other details.
 
 You can create a new request from the kafkaman home screen, by using __New__ &gt; __HTTP Request__, or by selecting the __+__ button to open a new tab.
 
